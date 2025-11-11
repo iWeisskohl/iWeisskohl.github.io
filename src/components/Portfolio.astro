@@ -1,0 +1,36 @@
+---
+import { SITE_TITLE } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+---
+
+<div class="portfolio">
+	<img src="https://avatars.githubusercontent.com/u/23476065?v=4" />
+    <div class="description">
+        <h2>Ling Huang</h2>
+        <p class="weak">
+            Imperial, NUS, UTC, CNRS, Sorbonne alliance
+        </p>
+    </div>
+</div>
+<style>
+    h2 {
+        font-size: 22pt;
+    }
+    p {
+
+    }
+    .portfolio {
+        display: flex;
+        gap: 20px;
+    }
+    .portfolio > .description {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .portfolio > img {
+        display: block;
+        width: 150px;
+        border-radius: 50%;
+    }
+</style>

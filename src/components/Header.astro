@@ -5,15 +5,14 @@ import HeaderLink from './HeaderLink.astro';
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2 class="site-title"><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Research</HeaderLink>
-			<HeaderLink href="/blog">Publications</HeaderLink>
-			<HeaderLink href="/blog">Projects</HeaderLink>
-			<HeaderLink href="/blog">Talks & Presentations</HeaderLink>
-			<HeaderLink href="/blog">Awards</HeaderLink>
-			<HeaderLink href="/about">CV</HeaderLink>
+			<HeaderLink href="/research">Research</HeaderLink>
+			<HeaderLink href="/publications">Publications</HeaderLink>
+			<HeaderLink href="/scientific-activites">Scientific Activites</HeaderLink>
+			<HeaderLink href="/awards">Awards</HeaderLink>
+			<HeaderLink href="/cv">CV</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
 		</div>
 		<div class="social-links">
@@ -48,6 +47,9 @@ import HeaderLink from './HeaderLink.astro';
 	</nav>
 </header>
 <style>
+	.site-title {
+		min-width: 160px;
+	}
 	header {
 		margin: 0;
 		padding: 0 1em;

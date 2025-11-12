@@ -10,10 +10,10 @@ const hamburgerIcon = icon({ prefix: "fas", iconName: faBars.iconName });
 
 <header>
 	<nav>
-		<h2 class="site-title"><a href="/">{SITE_TITLE}</a></h2>
 		<label for="header-button-toggle" class="header-button">
 			<Fragment set:html={hamburgerIcon.html} />
 		</label>
+		<h2 class="site-title"><a href="/">{SITE_TITLE}</a></h2>
 		<input type="checkbox" id="header-button-toggle" />
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>

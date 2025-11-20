@@ -32,7 +32,7 @@ interface Author {
 const author: Author = await (async () => {
 	if (API_KEY) {
 		const request = await fetch(
-			`https://serpapi.com/search?api_key=${API_KEY}&engine=google_scholar_author&hl=en&author_id=HczSncoAAAAJ`,
+			`https://serpapi.com/search?api_key=${API_KEY}&engine=google_scholar_author&hl=en&author_id=HczSncoAAAAJ&num=100`,
 		);
 		const response = await request.json();
 		return response;

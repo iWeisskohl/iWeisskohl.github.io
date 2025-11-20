@@ -1,15 +1,26 @@
 ---
-
-
+import authorJson from "../data/author.json";
+import Link from "./Link.astro";
 ---
 
 <div class="portfolio">
-	<img src="https://avatars.githubusercontent.com/u/23476065?v=4" />
+    <img src="https://avatars.githubusercontent.com/u/23476065?v=4" />
     <div class="description">
-        <h2>Ling Huang</h2>
-        <p class="weak">
-            Imperial, NUS, UTC, CNRS, Sorbonne alliance
+        <h2>{authorJson.author.name}</h2>
+        <p class="weak affiliations">
+            {authorJson.author.affiliations}
         </p>
+        <div>
+            {
+                authorJson.author.interests.map((interest) => (
+                    <>
+                        <Link href={interest.link} target="_blank">
+                            {interest.title}
+                        </Link>
+                    </>
+                ))
+            }
+        </div>
     </div>
 </div>
 <style>
@@ -17,7 +28,6 @@
         font-size: 22pt;
     }
     p {
-
     }
     .portfolio {
         display: flex;
@@ -35,5 +45,8 @@
         border-radius: 50%;
         min-width: 150px;
         min-height: 150px;
+    }
+    .affiliations {
+        margin: 0;
     }
 </style>

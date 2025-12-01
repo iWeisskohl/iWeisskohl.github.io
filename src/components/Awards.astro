@@ -5,10 +5,11 @@ import awardsJson from '../data/awards.json'
 
 ---
 
-<Layout title="Awards">
-<ul>
-	{
-		awardsJson.map(awards => <li>{awards}</li>)
-	}
-</ul>
-</Layout>
+<section>
+	<h3 id="awards">Awards</h3>
+	<ul>
+		{
+			awardsJson.map(awards => <li>{awards}</li>)
+		}
+	</ul>
+</section>

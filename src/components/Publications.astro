@@ -45,32 +45,29 @@ const author: Author = await (async () => {
 const { articles } = author;
 ---
 
-<Layout title="Publications">
-	<main>
-		<section>
-			<ul class="publications-list">
-				{
-					articles.map((article) => (
-						<li>
-							<h4>{article.title}</h4>
-							<div class="info">
-								<div class="publication">
-									<div>{article.publication}</div>
-									<div>{article.authors}</div>
-									<div class="link">
-										<Link href={article.link} target="_blank">
-											View
-										</Link>
-									</div>
-								</div>
+<section>
+	<h3 id="publications">Publications</h3>
+	<ul class="publications-list">
+		{
+			articles.map((article) => (
+				<li>
+					<h4>{article.title}</h4>
+					<div class="info">
+						<div class="publication">
+							<div>{article.publication}</div>
+							<div>{article.authors}</div>
+							<div class="link">
+								<Link href={article.link} target="_blank">
+									View
+								</Link>
 							</div>
-						</li>
-					))
-				}
-			</ul>
-		</section>
-	</main>
-</Layout>
+						</div>
+					</div>
+				</li>
+			))
+		}
+	</ul>
+</section>
 
 <style>
 	main {

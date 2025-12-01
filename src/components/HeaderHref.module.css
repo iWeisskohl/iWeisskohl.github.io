@@ -1,0 +1,19 @@
+.headerHref {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 0.5em;
+    color: var(--black);
+    border-bottom: 4px solid transparent;
+    overflow: hidden;
+}
+
+.headerHref:hover {
+    color: var(--black);
+}
+
+.active {
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration: none;
+    border-bottom-color: var(--accent);
+}

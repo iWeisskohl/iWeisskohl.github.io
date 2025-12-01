@@ -1,8 +1,13 @@
 ---
+import Awards from "../components/awards.astro";
 import BaseHead from "../components/BaseHead.astro";
+import Cv from "../components/cv.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import Portfolio from "../components/Portfolio.astro";
+import Publications from "../components/publications.astro";
+import Research from "../components/research.astro";
+import ScientificActivites from "../components/ScientificActivites.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 ---
 
@@ -28,7 +33,18 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 				of Approximate Reasoning, and top international conferences,
 				such as MICCAI and ISBI, BELIEF.
 			</p>
+			<Publications />
+			<Research />
+			<ScientificActivites />
+			<Awards />
+			<Cv />
 		</main>
 		<Footer />
 	</body>
 </html>
+
+<style>
+	main {
+		padding-top: 92px;
+	}
+</style>

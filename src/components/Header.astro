@@ -14,14 +14,14 @@ const hamburgerIcon = icon({ prefix: "fas", iconName: faBars.iconName });
 		<h2 class="site-title"><a href="/">{SITE_TITLE}</a></h2>
 		<input type="checkbox" id="header-button-toggle" />
 		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/research">Research</HeaderLink>
-			<HeaderLink href="/publications">Publications</HeaderLink>
-			<HeaderLink href="/scientific-activites"
+			<HeaderLink href="/#">Home</HeaderLink>
+			<HeaderLink href="/#publications">Publications</HeaderLink>
+			<HeaderLink href="/#research">Research</HeaderLink>
+			<HeaderLink href="/#scientific-activites"
 				>Scientific Activites</HeaderLink
 			>
-			<HeaderLink href="/awards">Awards</HeaderLink>
-			<HeaderLink href="/cv">CV</HeaderLink>
+			<HeaderLink href="/#awards">Awards</HeaderLink>
+			<HeaderLink href="/#cv">CV</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
 			<div style="flex-grow: 1;" />
 			<SocialLinks />
@@ -52,6 +52,8 @@ const hamburgerIcon = icon({ prefix: "fas", iconName: faBars.iconName });
 		display: flex;
 	}
 	header {
+		position: fixed;
+		width: 100%;
 		margin: 0;
 		padding: 0 1em;
 		background: white;

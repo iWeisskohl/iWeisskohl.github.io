@@ -3238,7 +3238,7 @@ remark-stringify@^11.0.0:
 
 remark-sub-super@^1.0.21:
   version "1.0.21"
-  resolved "https://artifactory.ops.ripple.com/artifactory/api/npm/ripple-npm/remark-sub-super/-/remark-sub-super-1.0.21.tgz#aef36b9b23a3e9f7bf834b94fb7f81127bff4c38"
+  resolved "https://registry.yarnpkg.com/remark-sub-super/-/remark-sub-super-1.0.21.tgz#aef36b9b23a3e9f7bf834b94fb7f81127bff4c38"
   integrity sha512-SNUO3GbQ6Qz1MneUIeZyAx85qhq3bd2O5bzdPpr2RgF7hARci8W0oYuppGtkHz6jebxgUYWpnc9+hoFHbiy67g==
 
 restructure@^3.0.0:

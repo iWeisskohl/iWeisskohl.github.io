@@ -18,8 +18,11 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "astro": "^5.15.5",
+    "katex": "^0.16.25",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
     "sharp": "^0.34.3"
   }
 }

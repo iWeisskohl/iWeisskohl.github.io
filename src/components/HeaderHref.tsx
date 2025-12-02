@@ -37,7 +37,7 @@ export const HeaderHref = (props: HeaderHrefProps) => {
         return () => observer.disconnect();
     }, []);
 
-    return <a href={props.href} className={`${styles.headerHref} ${isActive ? styles.active : ''}`}>
+    return <a {...props} href={props.href} className={`${styles.headerHref} ${isActive ? styles.active : ''}`}>
         {props.children}
     </a>
 }

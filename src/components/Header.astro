@@ -14,15 +14,15 @@ const hamburgerIcon = icon({ prefix: "fas", iconName: faBars.iconName });
 		<h2 class="site-title"><a href="/">{SITE_TITLE}</a></h2>
 		<input type="checkbox" id="header-button-toggle" />
 		<div class="internal-links">
-			<HeaderLink href="/#home">Home</HeaderLink>
-			<HeaderLink href="/#publications">Publications</HeaderLink>
-			<HeaderLink href="/#research">Research</HeaderLink>
-			<HeaderLink href="/#scientific-activites"
+			<HeaderLink data-close-menu href="/#home">Home</HeaderLink>
+			<HeaderLink data-close-menu href="/#publications">Publications</HeaderLink>
+			<HeaderLink data-close-menu href="/#research">Research</HeaderLink>
+			<HeaderLink data-close-menu href="/#scientific-activites"
 				>Scientific Activites</HeaderLink
 			>
-			<HeaderLink href="/#awards">Awards</HeaderLink>
-			<HeaderLink href="/#cv">CV</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
+			<HeaderLink data-close-menu href="/#awards">Awards</HeaderLink>
+			<HeaderLink data-close-menu href="/#cv">CV</HeaderLink>
+			<HeaderLink data-close-menu href="/blog">Blog</HeaderLink>
 			<div style="flex-grow: 1;"></div>
 			<SocialLinks />
 		</div>
@@ -111,3 +111,12 @@ const hamburgerIcon = icon({ prefix: "fas", iconName: faBars.iconName });
 		}
 	}
 </style>
+<script is:inline>
+  // Runs in the browser
+  document.addEventListener("click", (e) => {
+    if (e.target.matches("[data-close-menu]")) {
+      const checkbox = document.getElementById("header-button-toggle");
+      if (checkbox) checkbox.checked = false;
+    }
+  });
+</script>

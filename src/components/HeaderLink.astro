@@ -7,6 +7,6 @@ type Props = HTMLAttributes<'a'>;
 const { href, class: className } = Astro.props;
 ---
 
-<HeaderHref href={href?.toString() ?? ""} client:load>
+<HeaderHref {...Astro.props} href={href?.toString() ?? ""} client:load>
 	<slot />
 </HeaderHref>

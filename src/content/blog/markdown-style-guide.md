@@ -29,6 +29,18 @@ Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptio
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
+## LaTex
+```markdown
+$$
+E = mc^2
+$$
+```
+
+### Output
+$$
+E = mc^2
+$$
+
 ## Images
 
 ### Syntax

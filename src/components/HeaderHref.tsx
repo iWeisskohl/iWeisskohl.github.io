@@ -11,8 +11,8 @@ export const HeaderHref = (props: HeaderHrefProps) => {
 
     useEffect(() => {
         const hash = props.href.split('/')[1]
-        if (!hash.startsWith('#') || hash === '#') {
-            console.log(props.href)
+        if (!hash.startsWith('#')) {
+            setActive(window.location.pathname == props.href)
             return;
         }
         const element = document.querySelector(hash)

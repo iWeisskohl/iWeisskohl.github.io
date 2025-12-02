@@ -10,10 +10,14 @@ const blog = defineCollection({
 			title: z.string(),
 			description: z.string().optional(),
 			// Transform string to Date object
-			pubDate: z.coerce.date().optional(),
+			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: image().optional(),
 		}),
 });
 
-export const collections = { blog };
+const section = defineCollection({
+	loader: glob({ base: './src/content/section', pattern: '**/*.{md,mdx}' }),
+})
+
+export const collections = { blog, section };

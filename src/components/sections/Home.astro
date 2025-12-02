@@ -1,0 +1,16 @@
+---
+import PageSectionLayout from "../../layouts/PageSectionLayout.astro";
+import Portfolio from "../Portfolio.astro";
+import { getEntry, render } from 'astro:content';
+
+const entry = await getEntry("section", "home");
+
+const { Content } = await render(entry!);
+---
+
+<PageSectionLayout 
+	title=""
+	target="home">
+    <Portfolio />
+    <Content />
+</PageSectionLayout>

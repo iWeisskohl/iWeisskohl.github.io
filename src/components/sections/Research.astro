@@ -1,0 +1,16 @@
+---
+import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import Layout from '../../layouts/BlogPost.astro';
+import PageSectionLayout from '../../layouts/PageSectionLayout.astro';
+import { getEntry, render } from 'astro:content';
+
+const entry = await getEntry("section", "research");
+
+const { Content } = await render(entry!);
+---
+
+<PageSectionLayout 
+	title="Research"
+	target="research">
+	<Content />
+</PageSectionLayout>

@@ -1,0 +1,19 @@
+---
+import { Image } from "astro:assets";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+
+const { title, target } = Astro.props;
+---
+
+<section id={target} class="page-section anchor-target">
+	{title ? <h3>{title}</h3> : null}
+	<slot />
+</section>
+
+<style>
+	.anchor-target {
+		scroll-margin-top: 87px;
+	}
+</style>

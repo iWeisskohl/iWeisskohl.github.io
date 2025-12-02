@@ -1,8 +1,9 @@
 ---
 import AboutHeroImage from "../assets/blog-placeholder-about.jpg";
-import Layout from "../layouts/BaseLayout.astro";
-import authorJson from "../data/author.json";
-import Link from "../components/Link.astro";
+import Layout from "../../layouts/BaseLayout.astro";
+import authorJson from "../../data/author.json";
+import Link from "../../components/Link.astro";
+import PageSectionLayout from "../../layouts/PageSectionLayout.astro";
 
 const API_KEY = process.env.SERPAPI_KEY;
 
@@ -45,8 +46,9 @@ const author: Author = await (async () => {
 const { articles } = author;
 ---
 
-<section>
-	<h3 id="publications">Publications</h3>
+<PageSectionLayout 
+	title="Publications"
+	target="publications">
 	<ul class="publications-list">
 		{
 			articles.map((article) => (
@@ -67,7 +69,7 @@ const { articles } = author;
 			))
 		}
 	</ul>
-</section>
+</PageSectionLayout>
 
 <style>
 	main {

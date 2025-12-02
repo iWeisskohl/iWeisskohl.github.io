@@ -1,0 +1,14 @@
+---
+import AboutHeroImage from "../assets/blog-placeholder-about.jpg";
+import Layout from "../../layouts/BlogPost.astro";
+import PageSectionLayout from '../../layouts/PageSectionLayout.astro';
+import { getEntry, render } from 'astro:content';
+
+const entry = await getEntry("section", "awards");
+
+const { Content } = await render(entry!);
+---
+
+<PageSectionLayout title="Awards" target="awards">
+	<Content />
+</PageSectionLayout>

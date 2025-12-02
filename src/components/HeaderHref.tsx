@@ -7,21 +7,33 @@ export interface HeaderHrefProps {
 }
 
 export const HeaderHref = (props: HeaderHrefProps) => {
-    const [isActive, setIsActive] = useState(false);
+    const [isActive, setActive] = useState(false);
 
     useEffect(() => {
-        const update = () => {
-            const hash = props.href.split('/')[1]
-            const currentHash = window.location.hash ? window.location.hash : '#';
-            const active = currentHash === hash;
-            setIsActive(active);
-            console.log(currentHash);
-        };
+        const hash = props.href.split('/')[1]
+        if (!hash.startsWith('#') || hash === '#') {
+            console.log(props.href)
+            return;
+        }
+        const element = document.querySelector(hash)
 
-        update();
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach(entry => {
+                    setActive(entry.isIntersecting);
+                });
+            },
+            {
+                rootMargin: `-92px 0px -100% 0px`,
+                threshold: 0,
+            }
+        );
 
-        window.addEventListener("hashchange", update);
-        return () => window.removeEventListener("hashchange", update);
+        if (element) {
+            observer.observe(element);
+        }
+
+        return () => observer.disconnect();
     }, []);
 
     return <a href={props.href} className={`${styles.headerHref} ${isActive ? styles.active : ''}`}>

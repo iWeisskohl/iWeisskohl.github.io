@@ -1,14 +1,15 @@
 ---
-import Awards from "../components/awards.astro";
+import Awards from "../components/sections/Awards.astro";
 import BaseHead from "../components/BaseHead.astro";
-import Cv from "../components/cv.astro";
+import Cv from "../components/sections/Cv.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import Portfolio from "../components/Portfolio.astro";
-import Publications from "../components/publications.astro";
-import Research from "../components/research.astro";
-import ScientificActivites from "../components/ScientificActivites.astro";
+import Publications from "../components/sections/Publications.astro";
+import Research from "../components/sections/Research.astro";
+import ScientificActivites from "../components/sections/ScientificActivites.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+import Home from "../components/sections/Home.astro";
 ---
 
 <!doctype html>
@@ -19,20 +20,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 	<body>
 		<Header />
 		<main>
-			<Portfolio />
-			<p>
-				Dr. Ling HUANG is a Research Fellow at the National University
-				of Singapore. Her research focuses on developing trustworthy AI
-				solutions to ensure decision accuracy and reliability, as well
-				as algorithm transparency and explainability. Her research focus
-				on uncertainty quantification, multi-modality information
-				fusion, and reliable and explainable decision-making with
-				state-of-the-art deep models such as foundation models, LLM,
-				etc. Her work was recognized by well-established journals, such
-				as Information Fusion,Medical Image Analysis, and Int. Journal
-				of Approximate Reasoning, and top international conferences,
-				such as MICCAI and ISBI, BELIEF.
-			</p>
+			<Home />
 			<Publications />
 			<Research />
 			<ScientificActivites />
@@ -42,9 +30,3 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 		<Footer />
 	</body>
 </html>
-
-<style>
-	main {
-		padding-top: 92px;
-	}
-</style>

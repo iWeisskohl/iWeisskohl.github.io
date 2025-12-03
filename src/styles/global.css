@@ -84,7 +84,13 @@ a {
 a:hover {
 	color: var(--accent);
 }
+
 p {
+	/* Standard syntax */
+	hyphens: auto;
+
+	/* Fallback for older Webkit browsers (Safari/Chrome) */
+	-webkit-hyphens: auto;
 	margin-bottom: 1em;
 }
 
@@ -171,10 +177,11 @@ hr {
 	color: #777
 }
 
-.page-section > *:last-child {
+.page-section>*:last-child {
 	margin-bottom: 0 !important;
 	padding-bottom: 1em;
 }
+
 html {
 	scroll-behavior: smooth;
 }

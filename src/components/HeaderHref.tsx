@@ -21,12 +21,12 @@ export const HeaderHref = (props: HeaderHrefProps) => {
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach(entry => {
-                    setActive(entry.isIntersecting);
+                    setActive(entry.isIntersecting && entry.intersectionRect.top <= 92);
                 });
             },
             {
-                rootMargin: `-92px 0px -100% 0px`,
-                threshold: 0,
+                rootMargin: `-92px 0px 0px 0px`,
+                threshold:  Array.from({ length: 1000 }, (_, i) => i / 1000),
             }
         );
 

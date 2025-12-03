@@ -34,6 +34,7 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 $$
 E = mc^2
 $$
+$E=mc^2$
 ```
 
 ### Output

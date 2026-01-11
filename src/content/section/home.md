@@ -1,10 +1,3 @@
-Dr. Ling HUANG is a Research Fellow at the National University of Singapore.
+Dr. Ling HUANG is postdoc research associate at the Imperial College London, working with Prof.Declan O'regan for gene-environemnt-disease casusal inference. Before this, she was a Research Fellow at the  National University of Singapore, worked with Prof. Mengling Feng. She did her doctoral study at the Université de Technologie de Compiègne, under the supervision of Prof.Thierry Denoeux and Prof.Su Ruan. 
 Her research focuses on developing trustworthy AI solutions to ensure
-decision accuracy and reliability, as well as algorithm transparency and
-explainability. Her research focus on uncertainty quantification,
-multi-modality information fusion, and reliable and explainable
-decision-making with state-of-the-art deep models such as foundation models,
-LLM, etc. Her work was recognized by well-established journals, such as
-Information Fusion,Medical Image Analysis, and Int. Journal of Approximate
-Reasoning, and top international conferences, such as MICCAI and ISBI,
-BELIEF.
+decision accuracy, epecially focus on uncertainty quantification, multi-modality information fusion, and reliable and explainable decision-making with state-of-the-art deep models such as foundation models, LLM, etc. Her work was recognized by well-established journals, such as Information Fusion, IEEE trans. on Fuzzy systems, Medical Image Analysis,Ieee trans on cybernetics, and Int. Journal of Approximate Reasoning, Knowledge-Based Systems, and top international conferences, such as MICCAI, ACL and ISBI, BELIEF.

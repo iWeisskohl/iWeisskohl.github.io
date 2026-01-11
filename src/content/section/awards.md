@@ -1,5 +1,5 @@
-* Best paper rewards (BELIEF 2024)
-* 2024 SFGBM Thesis Prize
+* IJAR Best paper rewards (2024 BELEIF conference)
+* French Society of Biological and Medical Engineering (SFGBM) 2024 Thesis Prize
 * Frontrunner 5000 -Top Articles from Outstanding S&T Journals of China (2021)
 * Journal of Software High Impact Papers (2019 and 2020)
 * Excellent graduation thesis of Zhejiang University of Technology (2019)

@@ -1,580 +1,612 @@
 {
-    "search_metadata": {
-        "id": "691f1e38b2c6136624b4683a",
-        "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/dfb96551df4715db/691f1e38b2c6136624b4683a.json",
-        "created_at": "2025-11-20 13:57:13 UTC",
-        "processed_at": "2025-11-20 13:57:13 UTC",
-        "google_scholar_author_url": "https://scholar.google.com/citations?user=HczSncoAAAAJ&hl=en&pagesize=100",
-        "raw_html_file": "https://serpapi.com/searches/dfb96551df4715db/691f1e38b2c6136624b4683a.html",
-        "total_time_taken": 3.07
-    },
-    "search_parameters": {
-        "engine": "google_scholar_author",
-        "author_id": "HczSncoAAAAJ",
-        "hl": "en",
-        "num": "100"
-    },
-    "author": {
-        "name": "Ling Huang",
-        "affiliations": "Imperial, NUS, UTC, CNRS, Sorbonne",
-        "email": "Verified email at ic.ac.uk",
-        "website": "https://www.hds.utc.fr/~hualing/dokuwiki/",
-        "interests": [
-            {
-                "title": "Uncertainty quantification",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:uncertainty_quantification",
-                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Auncertainty_quantification"
-            },
-            {
-                "title": "Trustworthy AI",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:trustworthy_ai",
-                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Atrustworthy_ai"
-            },
-            {
-                "title": "Medical data analysis",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:medical_data_analysis",
-                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amedical_data_analysis"
-            },
-            {
-                "title": "Cardiovascular computing",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:cardiovascular_computing",
-                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acardiovascular_computing"
-            }
-        ],
-        "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=HczSncoAAAAJ&citpid=6"
-    },
-    "articles": [
-        {
-            "title": "Optimization of deep convolutional neural network for large scale image retrieval",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:u-x6o8ySG0sC",
-            "citation_id": "HczSncoAAAAJ:u-x6o8ySG0sC",
-            "authors": "C Bai, L Huang, X Pan, J Zheng, S Chen",
-            "publication": "Neurocomputing 303, 60-67, 2018",
-            "cited_by": {
-                "value": 140,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13270950313913932835",
-                "serpapi_link": "https://serpapi.com/search.json?cites=13270950313913932835&engine=google_scholar&hl=en",
-                "cites_id": "13270950313913932835"
-            },
-            "year": "2018"
-        },
-        {
-            "title": "A review of uncertainty quantification in medical image analysis: Probabilistic and non-probabilistic methods",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:_kc_bZDykSQC",
-            "citation_id": "HczSncoAAAAJ:_kc_bZDykSQC",
-            "authors": "L Huang, S Ruan, Y Xing, M Feng",
-            "publication": "Medical Image Analysis 97, 103223, 2024",
-            "cited_by": {
-                "value": 80,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16855499794294201685",
-                "serpapi_link": "https://serpapi.com/search.json?cites=16855499794294201685&engine=google_scholar&hl=en",
-                "cites_id": "16855499794294201685"
-            },
-            "year": "2024"
-        },
-        {
-            "title": "Lymphoma segmentation from 3D PET-CT images using a deep evidential network",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:MXK_kJrjxJIC",
-            "citation_id": "HczSncoAAAAJ:MXK_kJrjxJIC",
-            "authors": "L Huang, S Ruan, P Decazes, T Denoeux",
-            "publication": "International Journal of Approximate Reasoning 149, 39-60, 2022",
-            "cited_by": {
-                "value": 67,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11090739394949619414",
-                "serpapi_link": "https://serpapi.com/search.json?cites=11090739394949619414&engine=google_scholar&hl=en",
-                "cites_id": "11090739394949619414"
-            },
-            "year": "2022"
-        },
-        {
-            "title": "Saliency-based multi-feature modeling for semantic image retrieval",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:d1gkVwhDpl0C",
-            "citation_id": "HczSncoAAAAJ:d1gkVwhDpl0C",
-            "authors": "C Bai, J Chen, L Huang, K Kpalma, S Chen",
-            "publication": "Journal of Visual Communication and Image Representation 50, 199-204, 2018",
-            "cited_by": {
-                "value": 67,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6843827934702003672",
-                "serpapi_link": "https://serpapi.com/search.json?cites=6843827934702003672&engine=google_scholar&hl=en",
-                "cites_id": "6843827934702003672"
-            },
-            "year": "2018"
-        },
-        {
-            "title": "Has multimodal learning delivered universal intelligence in healthcare? A comprehensive survey",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:mVmsd5A6BfQC",
-            "citation_id": "HczSncoAAAAJ:mVmsd5A6BfQC",
-            "authors": "Q Lin, Y Zhu, X Mei, L Huang, J Ma, K He, Z Peng, E Cambria, M Feng",
-            "publication": "Information Fusion 116, 102795, 2025",
-            "cited_by": {
-                "value": 65,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15316118268809055054",
-                "serpapi_link": "https://serpapi.com/search.json?cites=15316118268809055054&engine=google_scholar&hl=en",
-                "cites_id": "15316118268809055054"
-            },
-            "year": "2025"
-        },
-        {
-            "title": "Unsupervised adversarial instance-level image retrieval",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:W7OEmFMy1HYC",
-            "citation_id": "HczSncoAAAAJ:W7OEmFMy1HYC",
-            "authors": "C Bai, H Li, J Zhang, L Huang, L Zhang",
-            "publication": "IEEE Transactions on Multimedia 23, 2199-2207, 2021",
-            "cited_by": {
-                "value": 53,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16524311707114435730",
-                "serpapi_link": "https://serpapi.com/search.json?cites=16524311707114435730&engine=google_scholar&hl=en",
-                "cites_id": "16524311707114435730"
-            },
-            "year": "2021"
-        },
-        {
-            "title": "Evidence fusion with contextual discounting for multi-modality medical image segmentation",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:Se3iqnhoufwC",
-            "citation_id": "HczSncoAAAAJ:Se3iqnhoufwC",
-            "authors": "L Huang, T Denoeux, P Vera, S Ruan",
-            "publication": "MICCAI2022, 2022",
-            "cited_by": {
-                "value": 51,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13203336411478769330",
-                "serpapi_link": "https://serpapi.com/search.json?cites=13203336411478769330&engine=google_scholar&hl=en",
-                "cites_id": "13203336411478769330"
-            },
-            "year": "2022"
-        },
-        {
-            "title": "Application of belief functions to medical image segmentation: A review",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:roLk4NBRz8UC",
-            "citation_id": "HczSncoAAAAJ:roLk4NBRz8UC",
-            "authors": "L Huang, S Ruan, T Denoeux",
-            "publication": "Information Fusion 91, 737-756, 2023",
-            "cited_by": {
-                "value": 49,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6162328766280427476",
-                "serpapi_link": "https://serpapi.com/search.json?cites=6162328766280427476&engine=google_scholar&hl=en",
-                "cites_id": "6162328766280427476"
-            },
-            "year": "2023"
-        },
-        {
-            "title": "Deep evidential fusion with uncertainty quantification and reliability learning for multimodal medical image segmentation",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:Wp0gIr-vW9MC",
-            "citation_id": "HczSncoAAAAJ:Wp0gIr-vW9MC",
-            "authors": "L Huang, S Ruan, P Decazes, T Denœux",
-            "publication": "Information Fusion 113, 102648, 2025",
-            "cited_by": {
-                "value": 47,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10341577809979357923,17782734571839573151",
-                "serpapi_link": "https://serpapi.com/search.json?cites=10341577809979357923%2C17782734571839573151&engine=google_scholar&hl=en",
-                "cites_id": "10341577809979357923,17782734571839573151"
-            },
-            "year": "2025"
-        },
-        {
-            "title": "Belief function-based semi-supervised learning for brain tumor segmentation",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:Y0pCki6q_DkC",
-            "citation_id": "HczSncoAAAAJ:Y0pCki6q_DkC",
-            "authors": "L Huang, S Ruan, T Denoeux",
-            "publication": "ISBI2021, 2021",
-            "cited_by": {
-                "value": 37,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12276261824160519872",
-                "serpapi_link": "https://serpapi.com/search.json?cites=12276261824160519872&engine=google_scholar&hl=en",
-                "cites_id": "12276261824160519872"
-            },
-            "year": "2021"
-        },
-        {
-            "title": "Optimization of deep convolutional neural network for large scale image classification",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:kNdYIx-mwKoC",
-            "citation_id": "HczSncoAAAAJ:kNdYIx-mwKoC",
-            "authors": "白琮， 黄玲， 陈佳楠， 潘翔， 陈胜勇",
-            "publication": "Journal of Software 29 (4), 1029-1038, 2017",
-            "cited_by": {
-                "value": 33,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4717803060980466810,14336169853372589628",
-                "serpapi_link": "https://serpapi.com/search.json?cites=4717803060980466810%2C14336169853372589628&engine=google_scholar&hl=en",
-                "cites_id": "4717803060980466810,14336169853372589628"
-            },
-            "year": "2017"
-        },
-        {
-            "title": "Covid-19 classification with deep neural network and belief functions",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:IjCSPb-OGe4C",
-            "citation_id": "HczSncoAAAAJ:IjCSPb-OGe4C",
-            "authors": "L Huang, S Ruan, T Denoeux",
-            "publication": "BIBE2021, 2021",
-            "cited_by": {
-                "value": 31,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11537254096406153428",
-                "serpapi_link": "https://serpapi.com/search.json?cites=11537254096406153428&engine=google_scholar&hl=en",
-                "cites_id": "11537254096406153428"
-            },
-            "year": "2021"
-        },
-        {
-            "title": "Semi-supervised multiple evidence fusion for brain tumor segmentation",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:KlAtU1dfN6UC",
-            "citation_id": "HczSncoAAAAJ:KlAtU1dfN6UC",
-            "authors": "L Huang, S Ruan, T Denœux",
-            "publication": "Neurocomputing 535, 40-52, 2023",
-            "cited_by": {
-                "value": 25,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12269467906121903668",
-                "serpapi_link": "https://serpapi.com/search.json?cites=12269467906121903668&engine=google_scholar&hl=en",
-                "cites_id": "12269467906121903668"
-            },
-            "year": "2023"
-        },
-        {
-            "title": "Deep PET/CT fusion with Dempster-Shafer theory for lymphoma segmentation",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:eQOLeE2rZwMC",
-            "citation_id": "HczSncoAAAAJ:eQOLeE2rZwMC",
-            "authors": "L Huang, T Denoeux, D Tonnelet, P Decazes, S Ruan",
-            "publication": "MICCAI 2021 workshop MLMI, 2021",
-            "cited_by": {
-                "value": 25,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11962561764901446859",
-                "serpapi_link": "https://serpapi.com/search.json?cites=11962561764901446859&engine=google_scholar&hl=en",
-                "cites_id": "11962561764901446859"
-            },
-            "year": "2021"
-        },
-        {
-            "title": "Evidential segmentation of 3D PET/CT images",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:YsMSGLbcyi4C",
-            "citation_id": "HczSncoAAAAJ:YsMSGLbcyi4C",
-            "authors": "L Huang, S Ruan, P Decazes, T Denoeux",
-            "publication": "BELIEF2021, 2021",
-            "cited_by": {
-                "value": 22,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16303290565535008179",
-                "serpapi_link": "https://serpapi.com/search.json?cites=16303290565535008179&engine=google_scholar&hl=en",
-                "cites_id": "16303290565535008179"
-            },
-            "year": "2021"
-        },
-        {
-            "title": "Self-supervised quantized representation for seamlessly integrating knowledge graphs with large language models",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:ZeXyd9-uunAC",
-            "citation_id": "HczSncoAAAAJ:ZeXyd9-uunAC",
-            "authors": "Q Lin, T Zhao, K He, Z Peng, F Xu, L Huang, J Ma, M Feng",
-            "publication": "arXiv preprint arXiv:2501.18119, 2025",
-            "cited_by": {
-                "value": 10,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9421921652852625160",
-                "serpapi_link": "https://serpapi.com/search.json?cites=9421921652852625160&engine=google_scholar&hl=en",
-                "cites_id": "9421921652852625160"
-            },
-            "year": "2025"
-        },
-        {
-            "title": "Adversarial learning for content-based image retrieval",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:9yKSN-GCB0IC",
-            "citation_id": "HczSncoAAAAJ:9yKSN-GCB0IC",
-            "authors": "L Huang, C Bai, Y Lu, S Chen, Q Tian",
-            "publication": "2019 IEEE Conference on Multimedia Information Processing and Retrieval …, 2019",
-            "cited_by": {
-                "value": 8,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15271655389531243517",
-                "serpapi_link": "https://serpapi.com/search.json?cites=15271655389531243517&engine=google_scholar&hl=en",
-                "cites_id": "15271655389531243517"
-            },
-            "year": "2019"
-        },
-        {
-            "title": "An evidential time-to-event prediction model based on Gaussian random fuzzy numbers",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:qxL8FJ1GzNcC",
-            "citation_id": "HczSncoAAAAJ:qxL8FJ1GzNcC",
-            "authors": "L Huang, Y Xing, T Denoeux, M Feng",
-            "publication": "International Conference on Belief Functions, 49-57, 2024",
-            "cited_by": {
-                "value": 6,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10605786243579049250",
-                "serpapi_link": "https://serpapi.com/search.json?cites=10605786243579049250&engine=google_scholar&hl=en",
-                "cites_id": "10605786243579049250"
-            },
-            "year": "2024"
-        },
-        {
-            "title": "Unsupervised adversarial image retrieval",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:3fE2CSJIrl8C",
-            "citation_id": "HczSncoAAAAJ:3fE2CSJIrl8C",
-            "authors": "L Huang, C Bai, Y Lu, S Zhang, S Chen",
-            "publication": "Multimedia Systems 28 (2), 673-685, 2022",
-            "cited_by": {
-                "value": 5,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14565881931900609873",
-                "serpapi_link": "https://serpapi.com/search.json?cites=14565881931900609873&engine=google_scholar&hl=en",
-                "cites_id": "14565881931900609873"
-            },
-            "year": "2022"
-        },
-        {
-            "title": "Instance image retrieval with generative adversarial training",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:2osOgNQ5qMEC",
-            "citation_id": "HczSncoAAAAJ:2osOgNQ5qMEC",
-            "authors": "H Li, C Bai, L Huang, Y Jiang, S Chen",
-            "publication": "International Conference on Multimedia Modeling, 381-392, 2019",
-            "cited_by": {
-                "value": 5,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11928796414532340530",
-                "serpapi_link": "https://serpapi.com/search.json?cites=11928796414532340530&engine=google_scholar&hl=en",
-                "cites_id": "11928796414532340530"
-            },
-            "year": "2019"
-        },
-        {
-            "title": "Evidential time-to-event prediction with calibrated uncertainty quantification",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:hC7cP41nSMkC",
-            "citation_id": "HczSncoAAAAJ:hC7cP41nSMkC",
-            "authors": "L Huang, Y Xing, S Mishra, T Denœux, M Feng",
-            "publication": "International Journal of Approximate Reasoning 181, 109403, 2025",
-            "cited_by": {
-                "value": 4,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13123166625966319616,9678106634847034935",
-                "serpapi_link": "https://serpapi.com/search.json?cites=13123166625966319616%2C9678106634847034935&engine=google_scholar&hl=en",
-                "cites_id": "13123166625966319616,9678106634847034935"
-            },
-            "year": "2025"
-        },
-        {
-            "title": "EsurvFusion: An evidential multimodal survival fusion model based on Gaussian random fuzzy numbers",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:7PzlFSSx8tAC",
-            "citation_id": "HczSncoAAAAJ:7PzlFSSx8tAC",
-            "authors": "L Huang, Y Xing, Q Lin, S Ruan, M Feng",
-            "publication": "arXiv preprint arXiv:2412.01215, 2024",
-            "cited_by": {
-                "value": 4,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4335133643638773946",
-                "serpapi_link": "https://serpapi.com/search.json?cites=4335133643638773946&engine=google_scholar&hl=en",
-                "cites_id": "4335133643638773946"
-            },
-            "year": "2024"
-        },
-        {
-            "title": "Towards reliable medical image segmentation by utilizing evidential calibrated uncertainty",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:qUcmZB5y_30C",
-            "citation_id": "HczSncoAAAAJ:qUcmZB5y_30C",
-            "authors": "K Zou, Y Chen, L Huang, X Yuan, X Shen, M Wang, RSM Goh, Y Liu, H Fu",
-            "publication": "arXiv preprint arXiv:2301.00349, 2023",
-            "cited_by": {
-                "value": 4,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4390186610122235860",
-                "serpapi_link": "https://serpapi.com/search.json?cites=4390186610122235860&engine=google_scholar&hl=en",
-                "cites_id": "4390186610122235860"
-            },
-            "year": "2023"
-        },
-        {
-            "title": "An evidence-based framework for heterogeneous electronic health records: A case study in mortality prediction",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:4DMP91E08xMC",
-            "citation_id": "HczSncoAAAAJ:4DMP91E08xMC",
-            "authors": "Y Ruan, L Huang, Q Xu, M Feng",
-            "publication": "International Conference on Belief Functions, 78-86, 2024",
-            "cited_by": {
-                "value": 2,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15405128287111417985",
-                "serpapi_link": "https://serpapi.com/search.json?cites=15405128287111417985&engine=google_scholar&hl=en",
-                "cites_id": "15405128287111417985"
-            },
-            "year": "2024"
-        },
-        {
-            "title": "A Foundation Model for Chest X-ray Interpretation with Grounded Reasoning via Online Reinforcement Learning",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:mB3voiENLucC",
-            "citation_id": "HczSncoAAAAJ:mB3voiENLucC",
-            "authors": "Q Lin, Y Zhu, B Pu, L Huang, H Luo, J Ma, Z Peng, T Zhao, F Xu, J Zhang, ...",
-            "publication": "arXiv preprint arXiv:2509.03906, 2025",
-            "cited_by": {
-                "value": 1,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17680073022271554042",
-                "serpapi_link": "https://serpapi.com/search.json?cites=17680073022271554042&engine=google_scholar&hl=en",
-                "cites_id": "17680073022271554042"
-            },
-            "year": "2025"
-        },
-        {
-            "title": "Improving Clinical Foundation Models with Multi-modal Learning and Domain Adaptation for Chronic Disease Prediction",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:-f6ydRqryjwC",
-            "citation_id": "HczSncoAAAAJ:-f6ydRqryjwC",
-            "authors": "W Hou, J Wang, Q Lin, X Wang, L Huang",
-            "publication": "IEEE journal of biomedical and health informatics, 2025",
-            "cited_by": {
-                "value": 1,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2692222522987365154",
-                "serpapi_link": "https://serpapi.com/search.json?cites=2692222522987365154&engine=google_scholar&hl=en",
-                "cites_id": "2692222522987365154"
-            },
-            "year": "2025"
-        },
-        {
-            "title": "Evidence-based multimodal fusion on structured EHRs and free-text notes for ICU outcome prediction",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:L8Ckcad2t8MC",
-            "citation_id": "HczSncoAAAAJ:L8Ckcad2t8MC",
-            "authors": "Y Ruan, DJ Tan, L Huang, M Feng",
-            "publication": "arXiv e-prints, arXiv: 2501.04389, 2025",
-            "cited_by": {
-                "value": 1,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1499024550475864398",
-                "serpapi_link": "https://serpapi.com/search.json?cites=1499024550475864398&engine=google_scholar&hl=en",
-                "cites_id": "1499024550475864398"
-            },
-            "year": "2025"
-        },
-        {
-            "title": "EsurvFusion: An evidential multimodal survival fusion model based on Epistemic random fuzzy sets",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:e5wmG9Sq2KIC",
-            "citation_id": "HczSncoAAAAJ:e5wmG9Sq2KIC",
-            "authors": "L Huang, Y Xing, Q Lin, J Duan, S Ruan, M Feng",
-            "publication": "IEEE Transactions on Fuzzy Systems, 2025",
-            "cited_by": {
-                "value": null
-            },
-            "year": "2025"
-        },
-        {
-            "title": "DPsurv: Dual-Prototype Evidential Fusion for Uncertainty-Aware and Interpretable Whole-Slide Image Survival Prediction",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:HDshCWvjkbEC",
-            "citation_id": "HczSncoAAAAJ:HDshCWvjkbEC",
-            "authors": "Y Xing, L Huang, J Ma, R Hong, J Qiu, P Liu, K He, H Fu, M Feng",
-            "publication": "arXiv preprint arXiv:2510.00053, 2025",
-            "cited_by": {
-                "value": null
-            },
-            "year": "2025"
-        },
-        {
-            "title": "Toward Reliable Medical Image Segmentation by Modeling Evidential Calibrated Uncertainty",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:R3hNpaxXUhUC",
-            "citation_id": "HczSncoAAAAJ:R3hNpaxXUhUC",
-            "authors": "K Zou, Y Chen, L Huang, N Zhou, X Yuan, X Shen, M Wang, RSM Goh, ...",
-            "publication": "IEEE Transactions on Cybernetics, 2025",
-            "cited_by": {
-                "value": null
-            },
-            "year": "2025"
-        },
-        {
-            "title": "Domain-continual learning for multi-center anatomical detection via prompt-enhanced and densely-fused MedSAM",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:hFOr9nPyWt4C",
-            "citation_id": "HczSncoAAAAJ:hFOr9nPyWt4C",
-            "authors": "Z Gao, L Huang, Q Lin, B Pu, K He, M Feng, K Li",
-            "publication": "Information Fusion, 103614, 2025",
-            "cited_by": {
-                "value": null
-            },
-            "year": "2025"
-        },
-        {
-            "title": "Medical image segmentation with belief function theory and deep learning",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:Zph67rFs4hoC",
-            "citation_id": "HczSncoAAAAJ:Zph67rFs4hoC",
-            "authors": "L HUANG",
-            "publication": "UTC Thesis, 2023",
-            "cited_by": {
-                "value": null
-            },
-            "year": "2023"
-        }
+  "search_metadata": {
+    "id": "696426ab5b92f85877ab19eb",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/77cff2770dc77f8a/696426ab5b92f85877ab19eb.json",
+    "created_at": "2026-01-11 22:39:39 UTC",
+    "processed_at": "2026-01-11 22:39:39 UTC",
+    "google_scholar_author_url": "https://scholar.google.com/citations?user=HczSncoAAAAJ&hl=en&pagesize=200",
+    "raw_html_file": "https://serpapi.com/searches/77cff2770dc77f8a/696426ab5b92f85877ab19eb.html",
+    "total_time_taken": 1.07
+  },
+  "search_parameters": {
+    "engine": "google_scholar_author",
+    "author_id": "HczSncoAAAAJ",
+    "hl": "en",
+    "num": "200"
+  },
+  "author": {
+    "name": "Ling Huang",
+    "affiliations": "Imperial College London, National University of Singapore, University of Technology of Compiègne, French National Centre for Scientific Research, Sorbonne University",
+    "email": "Verified email at ic.ac.uk",
+    "website": "https://www.hds.utc.fr/~hualing/dokuwiki/",
+    "interests": [
+      {
+        "title": "Uncertainty quantification",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:uncertainty_quantification",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Auncertainty_quantification"
+      },
+      {
+        "title": "Trustworthy AI",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:trustworthy_ai",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Atrustworthy_ai"
+      },
+      {
+        "title": "Medical data analysis",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:medical_data_analysis",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amedical_data_analysis"
+      },
+      {
+        "title": "Cardiovascular computing",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:cardiovascular_computing",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acardiovascular_computing"
+      }
     ],
-    "cited_by": {
-        "table": [
-            {
-                "citations": {
-                    "all": 843,
-                    "since_2020": 784
-                }
-            },
-            {
-                "h_index": {
-                    "all": 15,
-                    "since_2020": 15
-                }
-            },
-            {
-                "i10_index": {
-                    "all": 16,
-                    "since_2020": 16
-                }
-            }
-        ],
-        "graph": [
-            {
-                "year": 2018,
-                "citations": 11
-            },
-            {
-                "year": 2019,
-                "citations": 47
-            },
-            {
-                "year": 2020,
-                "citations": 36
-            },
-            {
-                "year": 2021,
-                "citations": 60
-            },
-            {
-                "year": 2022,
-                "citations": 84
-            },
-            {
-                "year": 2023,
-                "citations": 121
-            },
-            {
-                "year": 2024,
-                "citations": 170
-            },
-            {
-                "year": 2025,
-                "citations": 307
-            }
-        ]
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=HczSncoAAAAJ&citpid=6"
+  },
+  "articles": [
+    {
+      "title": "Optimization of deep convolutional neural network for large scale image retrieval",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "HczSncoAAAAJ:u-x6o8ySG0sC",
+      "authors": "C Bai, L Huang, X Pan, J Zheng, S Chen",
+      "publication": "Neurocomputing 303, 60-67, 2018",
+      "cited_by": {
+        "value": 142,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13270950313913932835",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13270950313913932835&engine=google_scholar&hl=en",
+        "cites_id": "13270950313913932835"
+      },
+      "year": "2018"
     },
-    "public_access": {
-        "link": "https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=HczSncoAAAAJ",
-        "available": 9,
-        "not_available": 4
+    {
+      "title": "A review of uncertainty quantification in medical image analysis: Probabilistic and non-probabilistic methods",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:_kc_bZDykSQC",
+      "citation_id": "HczSncoAAAAJ:_kc_bZDykSQC",
+      "authors": "L Huang, S Ruan, Y Xing, M Feng",
+      "publication": "Medical Image Analysis 97, 103223, 2024",
+      "cited_by": {
+        "value": 90,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16855499794294201685",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16855499794294201685&engine=google_scholar&hl=en",
+        "cites_id": "16855499794294201685"
+      },
+      "year": "2024"
     },
-    "co_authors": [
-        {
-            "name": "Thierry Denoeux",
-            "link": "https://scholar.google.com/citations?user=JEO5fHoAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=JEO5fHoAAAAJ&engine=google_scholar_author&hl=en&num=100",
-            "author_id": "JEO5fHoAAAAJ",
-            "affiliations": "Professor, Université de technologie de Compiègne, Institut Universitaire de France",
-            "email": "Verified email at utc.fr",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=JEO5fHoAAAAJ&citpid=3"
-        },
-        {
-            "name": "Cong BAI 白琮",
-            "link": "https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=XGZ4UZgAAAAJ&engine=google_scholar_author&hl=en&num=100",
-            "author_id": "XGZ4UZgAAAAJ",
-            "affiliations": "Zhejiang University of Technology",
-            "email": "Verified email at zjut.edu.cn",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=XGZ4UZgAAAAJ&citpid=2"
-        },
-        {
-            "name": "S.Y. Chen",
-            "link": "https://scholar.google.com/citations?user=6nSU254AAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=6nSU254AAAAJ&engine=google_scholar_author&hl=en&num=100",
-            "author_id": "6nSU254AAAAJ",
-            "affiliations": "CITYU, ZJUT, TUT",
-            "email": "Verified email at sychen.com",
-            "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
-        },
-        {
-            "name": "Su Ruan",
-            "link": "https://scholar.google.com/citations?user=mjB2a6MAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=mjB2a6MAAAAJ&engine=google_scholar_author&hl=en&num=100",
-            "author_id": "mjB2a6MAAAAJ",
-            "affiliations": "Université de Rouen Normandie, France",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=mjB2a6MAAAAJ&citpid=8"
+    {
+      "title": "Has multimodal learning delivered universal intelligence in healthcare? A comprehensive survey",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:mVmsd5A6BfQC",
+      "citation_id": "HczSncoAAAAJ:mVmsd5A6BfQC",
+      "authors": "Q Lin, Y Zhu, X Mei, L Huang, J Ma, K He, Z Peng, E Cambria, M Feng",
+      "publication": "Information Fusion 116, 102795, 2025",
+      "cited_by": {
+        "value": 70,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15316118268809055054",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15316118268809055054&engine=google_scholar&hl=en",
+        "cites_id": "15316118268809055054"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Lymphoma segmentation from 3D PET-CT images using a deep evidential network",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "HczSncoAAAAJ:MXK_kJrjxJIC",
+      "authors": "L Huang, S Ruan, P Decazes, T Denoeux",
+      "publication": "International Journal of Approximate Reasoning 149, 39-60, 2022",
+      "cited_by": {
+        "value": 70,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11090739394949619414",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11090739394949619414&engine=google_scholar&hl=en",
+        "cites_id": "11090739394949619414"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Saliency-based multi-feature modeling for semantic image retrieval",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "HczSncoAAAAJ:d1gkVwhDpl0C",
+      "authors": "C Bai, J Chen, L Huang, K Kpalma, S Chen",
+      "publication": "Journal of Visual Communication and Image Representation 50, 199-204, 2018",
+      "cited_by": {
+        "value": 67,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6843827934702003672",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6843827934702003672&engine=google_scholar&hl=en",
+        "cites_id": "6843827934702003672"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Deep evidential fusion with uncertainty quantification and reliability learning for multimodal medical image segmentation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:Wp0gIr-vW9MC",
+      "citation_id": "HczSncoAAAAJ:Wp0gIr-vW9MC",
+      "authors": "L Huang, S Ruan, P Decazes, T Denœux",
+      "publication": "Information Fusion 113, 102648, 2025",
+      "cited_by": {
+        "value": 55,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10341577809979357923,17782734571839573151",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10341577809979357923%2C17782734571839573151&engine=google_scholar&hl=en",
+        "cites_id": "10341577809979357923,17782734571839573151"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Unsupervised adversarial instance-level image retrieval",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:W7OEmFMy1HYC",
+      "citation_id": "HczSncoAAAAJ:W7OEmFMy1HYC",
+      "authors": "C Bai, H Li, J Zhang, L Huang, L Zhang",
+      "publication": "IEEE Transactions on Multimedia 23, 2199-2207, 2021",
+      "cited_by": {
+        "value": 55,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16524311707114435730",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16524311707114435730&engine=google_scholar&hl=en",
+        "cites_id": "16524311707114435730"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Application of belief functions to medical image segmentation: A review",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:roLk4NBRz8UC",
+      "citation_id": "HczSncoAAAAJ:roLk4NBRz8UC",
+      "authors": "L Huang, S Ruan, T Denoeux",
+      "publication": "Information Fusion 91, 737-756, 2023",
+      "cited_by": {
+        "value": 53,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6162328766280427476",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6162328766280427476&engine=google_scholar&hl=en",
+        "cites_id": "6162328766280427476"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Evidence fusion with contextual discounting for multi-modality medical image segmentation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:Se3iqnhoufwC",
+      "citation_id": "HczSncoAAAAJ:Se3iqnhoufwC",
+      "authors": "L Huang, T Denoeux, P Vera, S Ruan",
+      "publication": "MICCAI2022, 2022",
+      "cited_by": {
+        "value": 52,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13203336411478769330",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13203336411478769330&engine=google_scholar&hl=en",
+        "cites_id": "13203336411478769330"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Belief function-based semi-supervised learning for brain tumor segmentation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:Y0pCki6q_DkC",
+      "citation_id": "HczSncoAAAAJ:Y0pCki6q_DkC",
+      "authors": "L Huang, S Ruan, T Denoeux",
+      "publication": "ISBI2021, 2021",
+      "cited_by": {
+        "value": 37,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12276261824160519872",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12276261824160519872&engine=google_scholar&hl=en",
+        "cites_id": "12276261824160519872"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Optimization of deep convolutional neural network for large scale image classification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:kNdYIx-mwKoC",
+      "citation_id": "HczSncoAAAAJ:kNdYIx-mwKoC",
+      "authors": "白琮， 黄玲， 陈佳楠， 潘翔， 陈胜勇",
+      "publication": "Journal of Software 29 (4), 1029-1038, 2017",
+      "cited_by": {
+        "value": 34,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4717803060980466810,14336169853372589628",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4717803060980466810%2C14336169853372589628&engine=google_scholar&hl=en",
+        "cites_id": "4717803060980466810,14336169853372589628"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Covid-19 classification with deep neural network and belief functions",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:IjCSPb-OGe4C",
+      "citation_id": "HczSncoAAAAJ:IjCSPb-OGe4C",
+      "authors": "L Huang, S Ruan, T Denoeux",
+      "publication": "BIBE2021, 2021",
+      "cited_by": {
+        "value": 31,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11537254096406153428",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11537254096406153428&engine=google_scholar&hl=en",
+        "cites_id": "11537254096406153428"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Semi-supervised multiple evidence fusion for brain tumor segmentation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:KlAtU1dfN6UC",
+      "citation_id": "HczSncoAAAAJ:KlAtU1dfN6UC",
+      "authors": "L Huang, S Ruan, T Denœux",
+      "publication": "Neurocomputing 535, 40-52, 2023",
+      "cited_by": {
+        "value": 27,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12269467906121903668",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12269467906121903668&engine=google_scholar&hl=en",
+        "cites_id": "12269467906121903668"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Deep PET/CT fusion with Dempster-Shafer theory for lymphoma segmentation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:eQOLeE2rZwMC",
+      "citation_id": "HczSncoAAAAJ:eQOLeE2rZwMC",
+      "authors": "L Huang, T Denoeux, D Tonnelet, P Decazes, S Ruan",
+      "publication": "MICCAI 2021 workshop MLMI, 2021",
+      "cited_by": {
+        "value": 25,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11962561764901446859",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11962561764901446859&engine=google_scholar&hl=en",
+        "cites_id": "11962561764901446859"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Evidential segmentation of 3D PET/CT images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "HczSncoAAAAJ:YsMSGLbcyi4C",
+      "authors": "L Huang, S Ruan, P Decazes, T Denoeux",
+      "publication": "BELIEF2021, 2021",
+      "cited_by": {
+        "value": 23,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16303290565535008179",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16303290565535008179&engine=google_scholar&hl=en",
+        "cites_id": "16303290565535008179"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Self-supervised quantized representation for seamlessly integrating knowledge graphs with large language models",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:ZeXyd9-uunAC",
+      "citation_id": "HczSncoAAAAJ:ZeXyd9-uunAC",
+      "authors": "Q Lin, T Zhao, K He, Z Peng, F Xu, L Huang, J Ma, M Feng",
+      "publication": "arXiv preprint arXiv:2501.18119, 2025",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9421921652852625160",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9421921652852625160&engine=google_scholar&hl=en",
+        "cites_id": "9421921652852625160"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Adversarial learning for content-based image retrieval",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "HczSncoAAAAJ:9yKSN-GCB0IC",
+      "authors": "L Huang, C Bai, Y Lu, S Chen, Q Tian",
+      "publication": "2019 IEEE Conference on Multimedia Information Processing and Retrieval …, 2019",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15271655389531243517",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15271655389531243517&engine=google_scholar&hl=en",
+        "cites_id": "15271655389531243517"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "An evidential time-to-event prediction model based on Gaussian random fuzzy numbers",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:qxL8FJ1GzNcC",
+      "citation_id": "HczSncoAAAAJ:qxL8FJ1GzNcC",
+      "authors": "L Huang, Y Xing, T Denoeux, M Feng",
+      "publication": "International Conference on Belief Functions, 49-57, 2024",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10605786243579049250",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10605786243579049250&engine=google_scholar&hl=en",
+        "cites_id": "10605786243579049250"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Unsupervised adversarial image retrieval",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:3fE2CSJIrl8C",
+      "citation_id": "HczSncoAAAAJ:3fE2CSJIrl8C",
+      "authors": "L Huang, C Bai, Y Lu, S Zhang, S Chen",
+      "publication": "Multimedia Systems 28 (2), 673-685, 2022",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14565881931900609873",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14565881931900609873&engine=google_scholar&hl=en",
+        "cites_id": "14565881931900609873"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Instance image retrieval with generative adversarial training",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "HczSncoAAAAJ:2osOgNQ5qMEC",
+      "authors": "H Li, C Bai, L Huang, Y Jiang, S Chen",
+      "publication": "International Conference on Multimedia Modeling, 381-392, 2019",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11928796414532340530",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11928796414532340530&engine=google_scholar&hl=en",
+        "cites_id": "11928796414532340530"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Evidential time-to-event prediction with calibrated uncertainty quantification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:hC7cP41nSMkC",
+      "citation_id": "HczSncoAAAAJ:hC7cP41nSMkC",
+      "authors": "L Huang, Y Xing, S Mishra, T Denœux, M Feng",
+      "publication": "International Journal of Approximate Reasoning 181, 109403, 2025",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13123166625966319616,9678106634847034935",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13123166625966319616%2C9678106634847034935&engine=google_scholar&hl=en",
+        "cites_id": "13123166625966319616,9678106634847034935"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "EsurvFusion: An evidential multimodal survival fusion model based on Gaussian random fuzzy numbers",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:7PzlFSSx8tAC",
+      "citation_id": "HczSncoAAAAJ:7PzlFSSx8tAC",
+      "authors": "L Huang, Y Xing, Q Lin, S Ruan, M Feng",
+      "publication": "arXiv preprint arXiv:2412.01215, 2024",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4335133643638773946",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4335133643638773946&engine=google_scholar&hl=en",
+        "cites_id": "4335133643638773946"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Towards reliable medical image segmentation by utilizing evidential calibrated uncertainty",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:qUcmZB5y_30C",
+      "citation_id": "HczSncoAAAAJ:qUcmZB5y_30C",
+      "authors": "K Zou, Y Chen, L Huang, X Yuan, X Shen, M Wang, RSM Goh, Y Liu, H Fu",
+      "publication": "arXiv preprint arXiv:2301.00349, 2023",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4390186610122235860",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4390186610122235860&engine=google_scholar&hl=en",
+        "cites_id": "4390186610122235860"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Improving clinical foundation models with multi-modal learning and domain adaptation for chronic disease prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:-f6ydRqryjwC",
+      "citation_id": "HczSncoAAAAJ:-f6ydRqryjwC",
+      "authors": "W Hou, J Wang, Q Lin, X Wang, L Huang",
+      "publication": "IEEE journal of biomedical and health informatics, 2025",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2692222522987365154",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2692222522987365154&engine=google_scholar&hl=en",
+        "cites_id": "2692222522987365154"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "A foundation model for chest x-ray interpretation with grounded reasoning via online reinforcement learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:mB3voiENLucC",
+      "citation_id": "HczSncoAAAAJ:mB3voiENLucC",
+      "authors": "Q Lin, Y Zhu, B Pu, L Huang, H Luo, J Ma, Z Peng, T Zhao, F Xu, J Zhang, ...",
+      "publication": "arXiv preprint arXiv:2509.03906, 2025",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17680073022271554042",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17680073022271554042&engine=google_scholar&hl=en",
+        "cites_id": "17680073022271554042"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "An evidence-based framework for heterogeneous electronic health records: A case study in mortality prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:4DMP91E08xMC",
+      "citation_id": "HczSncoAAAAJ:4DMP91E08xMC",
+      "authors": "Y Ruan, L Huang, Q Xu, M Feng",
+      "publication": "International Conference on Belief Functions, 78-86, 2024",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15405128287111417985",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15405128287111417985&engine=google_scholar&hl=en",
+        "cites_id": "15405128287111417985"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Towards accurate and reliable ICU outcome prediction: a multimodal learning framework based on belief function theory using structured EHRs and free-text notes",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:4JMBOYKVnBMC",
+      "citation_id": "HczSncoAAAAJ:4JMBOYKVnBMC",
+      "authors": "Y Ruan, DJ Tan, SK Ng, L Huang, M Feng",
+      "publication": "Journal of Healthcare Informatics Research, 1-42, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10843253391024480501",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10843253391024480501&engine=google_scholar&hl=en",
+        "cites_id": "10843253391024480501"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Domain-continual learning for multi-center anatomical detection via prompt-enhanced and densely-fused MedSAM",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:hFOr9nPyWt4C",
+      "citation_id": "HczSncoAAAAJ:hFOr9nPyWt4C",
+      "authors": "Z Gao, L Huang, Q Lin, B Pu, K He, M Feng, K Li",
+      "publication": "Information Fusion, 103614, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238108913427173026",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6238108913427173026&engine=google_scholar&hl=en",
+        "cites_id": "6238108913427173026"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Evidence-based multimodal fusion on structured EHRs and free-text notes for ICU outcome prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:L8Ckcad2t8MC",
+      "citation_id": "HczSncoAAAAJ:L8Ckcad2t8MC",
+      "authors": "Y Ruan, DJ Tan, L Huang, M Feng",
+      "publication": "arXiv e-prints, arXiv: 2501.04389, 2025",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1499024550475864398",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1499024550475864398&engine=google_scholar&hl=en",
+        "cites_id": "1499024550475864398"
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Adversarial example detection and defense based on the evidence consistency from Dempster-Shafer layers",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:RHpTSmoSYBkC",
+      "citation_id": "HczSncoAAAAJ:RHpTSmoSYBkC",
+      "authors": "Y Xu, Y Qiu, L Huang, R Wang, L Chen, J Zhou, W Liu",
+      "publication": "Knowledge-Based Systems, 114937, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "EsurvFusion: An evidential multimodal survival fusion model based on Epistemic random fuzzy sets",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:e5wmG9Sq2KIC",
+      "citation_id": "HczSncoAAAAJ:e5wmG9Sq2KIC",
+      "authors": "L Huang, Y Xing, Q Lin, J Duan, S Ruan, M Feng",
+      "publication": "IEEE Transactions on Fuzzy Systems, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "DPsurv: Dual-Prototype Evidential Fusion for Uncertainty-Aware and Interpretable Whole-Slide Image Survival Prediction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:HDshCWvjkbEC",
+      "citation_id": "HczSncoAAAAJ:HDshCWvjkbEC",
+      "authors": "Y Xing, L Huang, J Ma, R Hong, J Qiu, P Liu, K He, H Fu, M Feng",
+      "publication": "arXiv preprint arXiv:2510.00053, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Toward Reliable Medical Image Segmentation by Modeling Evidential Calibrated Uncertainty",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:R3hNpaxXUhUC",
+      "citation_id": "HczSncoAAAAJ:R3hNpaxXUhUC",
+      "authors": "K Zou, Y Chen, L Huang, N Zhou, X Yuan, X Shen, M Wang, RSM Goh, ...",
+      "publication": "IEEE Transactions on Cybernetics, 2025",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2025"
+    },
+    {
+      "title": "Medical image segmentation with belief function theory and deep learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=HczSncoAAAAJ&pagesize=100&citation_for_view=HczSncoAAAAJ:Zph67rFs4hoC",
+      "citation_id": "HczSncoAAAAJ:Zph67rFs4hoC",
+      "authors": "L HUANG",
+      "publication": "UTC Thesis, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    }
+  ],
+  "cited_by": {
+    "table": [
+      {
+        "citations": {
+          "all": 889,
+          "since_2021": 794
         }
+      },
+      {
+        "h_index": {
+          "all": 15,
+          "since_2021": 15
+        }
+      },
+      {
+        "i10_index": {
+          "all": 16,
+          "since_2021": 16
+        }
+      }
+    ],
+    "graph": [
+      {
+        "year": 2018,
+        "citations": 11
+      },
+      {
+        "year": 2019,
+        "citations": 47
+      },
+      {
+        "year": 2020,
+        "citations": 36
+      },
+      {
+        "year": 2021,
+        "citations": 60
+      },
+      {
+        "year": 2022,
+        "citations": 84
+      },
+      {
+        "year": 2023,
+        "citations": 121
+      },
+      {
+        "year": 2024,
+        "citations": 172
+      },
+      {
+        "year": 2025,
+        "citations": 346
+      },
+      {
+        "year": 2026,
+        "citations": 11
+      }
     ]
+  },
+  "public_access": {
+    "link": "https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=HczSncoAAAAJ",
+    "available": 9,
+    "not_available": 4
+  },
+  "co_authors": [
+    {
+      "name": "Thierry Denoeux",
+      "link": "https://scholar.google.com/citations?user=JEO5fHoAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=JEO5fHoAAAAJ&engine=google_scholar_author&hl=en&num=200",
+      "author_id": "JEO5fHoAAAAJ",
+      "affiliations": "Professor, Université de technologie de Compiègne, Institut Universitaire de France",
+      "email": "Verified email at utc.fr",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=JEO5fHoAAAAJ&citpid=3"
+    },
+    {
+      "name": "Cong BAI 白琮",
+      "link": "https://scholar.google.com/citations?user=XGZ4UZgAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=XGZ4UZgAAAAJ&engine=google_scholar_author&hl=en&num=200",
+      "author_id": "XGZ4UZgAAAAJ",
+      "affiliations": "Zhejiang University of Technology",
+      "email": "Verified email at zjut.edu.cn",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=XGZ4UZgAAAAJ&citpid=2"
+    },
+    {
+      "name": "S.Y. Chen",
+      "link": "https://scholar.google.com/citations?user=6nSU254AAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=6nSU254AAAAJ&engine=google_scholar_author&hl=en&num=200",
+      "author_id": "6nSU254AAAAJ",
+      "affiliations": "CITYU, ZJUT, TUT",
+      "email": "Verified email at sychen.com",
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    },
+    {
+      "name": "Su Ruan",
+      "link": "https://scholar.google.com/citations?user=mjB2a6MAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=mjB2a6MAAAAJ&engine=google_scholar_author&hl=en&num=200",
+      "author_id": "mjB2a6MAAAAJ",
+      "affiliations": "Université de Rouen Normandie, France",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=mjB2a6MAAAAJ&citpid=8"
+    }
+  ]
 }

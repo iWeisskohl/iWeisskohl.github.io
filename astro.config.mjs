@@ -14,6 +14,10 @@ import { defineConfig } from 'astro/config';
 
 import react from '@astrojs/react';
 
+import tailwindcss from '@tailwindcss/vite';
+
+import icon from 'astro-icon';
+
 const mdPlugins = [
     remarkMath,
     remarkGfm];
@@ -24,17 +28,20 @@ export default defineConfig({
     integrations: [mdx({
         remarkPlugins: mdPlugins,
         rehypePlugins: [rehypeKatex],
-    }), sitemap(), react()],
+    }), sitemap(), react(), icon()],
     markdown: {
         remarkPlugins: mdPlugins,
         rehypePlugins: [rehypeKatex],
     },
     vite: {
-        server: {
-            allowedHosts: ["7f7861e44bb6.ngrok-free.app"],
-        },
-        preview: {
-            allowedHosts: ["7f7861e44bb6.ngrok-free.app"],
-        }
+      server: {
+          allowedHosts: ["7f7861e44bb6.ngrok-free.app"],
+      },
+
+      preview: {
+          allowedHosts: ["7f7861e44bb6.ngrok-free.app"],
+      },
+
+      plugins: [tailwindcss()]
     }
 });

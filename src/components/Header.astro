@@ -1,122 +1,17 @@
 ---
-import { SITE_TITLE } from "../consts";
 import HeaderLink from "./HeaderLink.astro";
-import { library, icon } from "@fortawesome/fontawesome-svg-core";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import SocialLinks from "./SocialLinks.astro";
-
-library.add(faBars);
-const hamburgerIcon = icon({ prefix: "fas", iconName: faBars.iconName });
 ---
 
 <header>
-	<nav>
-		<h2 class="site-title"><a href="/">{SITE_TITLE}</a></h2>
-		<input type="checkbox" id="header-button-toggle" />
-		<div class="internal-links">
-			<HeaderLink data-close-menu href="/#home">Home</HeaderLink>
-			<HeaderLink data-close-menu href="/#research">Research</HeaderLink>
-			<HeaderLink data-close-menu href="/#scientific-activites"
-			>Scientific Activites</HeaderLink
-			>
-			<HeaderLink data-close-menu href="/#awards">Awards</HeaderLink>
-			<HeaderLink data-close-menu href="/#publications">Publications</HeaderLink>
-			<HeaderLink data-close-menu href="/#cv">CV</HeaderLink>
-			<HeaderLink data-close-menu href="/blog">Blog</HeaderLink>
-			<div style="flex-grow: 1;"></div>
-			<SocialLinks />
-		</div>
-		<div style="flex-grow: 1; display: flex;">
-			<div style="flex-grow: 1;"></div>
-			<label for="header-button-toggle" class="header-button">
-				<Fragment set:html={hamburgerIcon.html} />
-			</label>
-		</div>
+	<nav class="flex h-20 items-stretch border-b border-sub">
+		<h2 class="text-3xl shrink-0 pl-8 flex items-center font-thin"><a href="/">DR. <span class="text-brand"></span>LING <b class="text-secondary">HUANG</b></a></h2>
+		<input class="collapse" type="checkbox" id="header-button-toggle" />
+		<div class="grow" />
+		<HeaderLink href="/">Home</HeaderLink>
+		<HeaderLink href="/research">Research</HeaderLink>
+		<HeaderLink href="/about">About</HeaderLink>
+		<HeaderLink href="/publications">Publications</HeaderLink>
+		<HeaderLink href="/contact">Contact</HeaderLink>
+
 	</nav>
 </header>
-<style>
-	.site-title {
-		flex-shrink: 0;
-		height: 72px;
-		align-content: center;
-	}
-	.header-button {
-		display: none;
-		width: 24px;
-		height: 24px;
-		align-items: stretch;
-		justify-items: stretch;
-	}
-	.internal-links {
-		flex-grow: 1;
-		display: flex;
-	}
-	header {
-		position: fixed;
-		box-sizing: border-box;
-		width: 100vw;
-		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
-
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-	}
-	nav {
-		display: flex;
-		align-items: center;
-	}
-	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
-		text-decoration: none;
-		overflow: hidden;
-	}
-	nav a.active {
-		text-decoration: none;
-		border-bottom-color: var(--accent);
-	}
-	#header-button-toggle {
-		display: none;
-	}
-	@media (max-width: 1024px) {
-		.header-button {
-			cursor: pointer;
-			display: flex;
-		}
-		.internal-links {
-			display: flex;
-			position: absolute;
-			flex-direction: column;
-			width: 100vw;
-			z-index: 999;
-			left: 0;
-			top: 72px;
-			background-color: white;
-			opacity: 0;
-			transition: opacity 0.5s;
-			pointer-events: none;
-		}
-		#header-button-toggle:checked + .internal-links {
-			opacity: 1;
-			pointer-events: all;
-		}
-	}
-</style>
-<script is:inline>
-  // Runs in the browser
-  document.addEventListener("click", (e) => {
-    if (e.target.matches("[data-close-menu]")) {
-      const checkbox = document.getElementById("header-button-toggle");
-      if (checkbox) checkbox.checked = false;
-    }
-  });
-</script>

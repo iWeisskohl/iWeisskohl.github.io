@@ -1,12 +1,22 @@
 ---
 import type { HTMLAttributes } from 'astro/types';
-import { HeaderHref } from './HeaderHref';
 
 type Props = HTMLAttributes<'a'>;
 
-const { href, class: className } = Astro.props;
+const { pathname } = Astro.url;
+
+const active = pathname === Astro.props.href;
+
+const textClass = active ?
+	'text-brand' : '';
+
+const decorationClass = active ? 
+	'h-1' : 'h-0'
 ---
 
-<HeaderHref {...Astro.props} href={href?.toString() ?? ""} client:load>
-	<slot />
-</HeaderHref>
+<div class="flex flex-col justify-center px-4 relative">
+	<a {...Astro.props} class={`text-lg font-normal ${textClass} ${Astro.props.class ?? ''}`}>
+		<slot />
+	</a>
+	<div class={`${decorationClass} w-[calc(100%-(--spacing(8)))] left-4 bottom-3 absolute bg-secondary`} />
+</div>

@@ -1,0 +1,19 @@
+---
+import { Icon } from 'astro-icon/components';
+export interface Props {
+    title: string;
+    citation?: string;
+    url: string;
+}
+const { title, citation, url } = Astro.props as Props;
+---
+
+<div class="flex gap-3">
+    <div class="p-3 rounded-md bg-secondary">
+        <Icon name="fa6-regular:file-lines" class="w-7 h-7 text-white" />
+    </div>
+    <div class="flex flex-col gap-2 shrink-0">
+        <a class="text-xl font-medium" href={url}>{title}</a>
+        <p class="text-sm text-gray-500">{citation}</p>
+    </div>
+</div>

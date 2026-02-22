@@ -1,19 +1,15 @@
 ---
-import { Image } from "astro:assets";
-import BaseHead from "../components/BaseHead.astro";
-import Footer from "../components/Footer.astro";
-import Header from "../components/Header.astro";
+export interface Props {
+	title?: string;
+	class?: string;
+}
 
-const { title, target } = Astro.props;
+const { title, class: className } = Astro.props;
 ---
 
-<section id={target} class="page-section anchor-target">
-	{title ? <h3>{title}</h3> : null}
-	<slot />
-</section>
-
-<style>
-	.anchor-target {
-		scroll-margin-top: 87px;
-	}
-</style>
+<div class=`px-layout flex flex-col gap-4 my-10 ${className}`>
+	{title ? <h2 class="text-2xl font-medium text-brand section-header self-start">{title}</h2> : null}
+	<div class="flex gap-4">
+		<slot />
+	</div>
+</div>

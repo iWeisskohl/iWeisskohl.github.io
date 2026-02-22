@@ -1,9 +1,9 @@
 ---
 import AboutHeroImage from "../assets/blog-placeholder-about.jpg";
-import Layout from "../../layouts/BaseLayout.astro";
-import authorJson from "../../data/author.json";
-import Link from "../../components/Link.astro";
-import PageSectionLayout from "../../layouts/PageSectionLayout.astro";
+import Layout from "../layouts/BaseLayout.astro";
+import authorJson from "../data/author.json";
+import Link from "../components/Link.astro";
+import PageSectionLayout from "../layouts/PageSectionLayout.astro";
 
 const API_KEY = process.env.SERPAPI_KEY;
 
@@ -47,8 +47,7 @@ const { articles } = author;
 ---
 
 <PageSectionLayout 
-	title="Publications"
-	target="publications">
+	title="Publications">
 	<ul class="publications-list">
 		{
 			articles.map((article) => (
@@ -70,34 +69,3 @@ const { articles } = author;
 		}
 	</ul>
 </PageSectionLayout>
-
-<style>
-	main {
-		width: 960px;
-	}
-	h4 {
-		font-size: 1.2rem;
-	}
-	li {
-		margin: 0.5rem;
-		display: flex;
-		flex-direction: column;
-		align-items: stretch;
-	}
-	.publications-list {
-		padding: 0;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		list-style-type: none;
-	}
-
-	.info {
-		display: flex;
-		font-size: 0.9em;
-		color: rgb(var(--gray));
-	}
-	.link {
-		font-size: 0.9em;
-	}
-</style>

@@ -1,0 +1,14 @@
+---
+export interface Props {
+    date: Date;
+    title: string;
+    url: string;
+}
+
+const { date, title, url } = Astro.props;
+---
+
+<div class="flex p-0.5">
+    <div class="font-semibold mr-2">{date.toDateString()}:</div>
+    <a href={url}>{title}</a>
+</div>

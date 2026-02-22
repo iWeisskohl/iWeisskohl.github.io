@@ -1,0 +1,11 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+export type Props = HTMLAttributes<"ul">;
+
+const { class: className } = Astro.props;
+---
+
+<ul class=`list-none ${className}` {...Astro.props}>
+    <slot />
+</ul>

@@ -1,0 +1,13 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+export interface Props extends HTMLAttributes<"li"> {
+    markerClass?: string;
+}
+
+const { class: className } = Astro.props;
+---
+
+<li class=`flex ${className ?? ''} items-center` {...Astro.props}>
+    <div class=`${Astro.props.markerClass ?? ''} grow-0 shrink-0`></div><slot />
+</li>

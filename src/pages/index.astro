@@ -1,32 +1,18 @@
 ---
-import Awards from "../components/sections/Awards.astro";
-import BaseHead from "../components/BaseHead.astro";
-import Cv from "../components/sections/Cv.astro";
-import Footer from "../components/Footer.astro";
-import Header from "../components/Header.astro";
-import Portfolio from "../components/Portfolio.astro";
-import Publications from "../components/sections/Publications.astro";
-import Research from "../components/sections/Research.astro";
-import ScientificActivites from "../components/sections/ScientificActivites.astro";
-import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
-import Home from "../components/sections/Home.astro";
+import FeaturedResearch from "../sections/FeaturedResearch.astro";
+import Portfolio from "../sections/Portfolio.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ResearchPillars from "../sections/ResearchPillars.astro";
+import SelectedPublications from "../sections/SelectedPublications.astro";
+import RecentNews from "../sections/RecentNews.astro";
+import JobNote from "../sections/JobNote.astro";
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<Home />
-			<Research />
-			<ScientificActivites />
-			<Awards />
-			<Publications />
-			<Cv />
-		</main>
-		<Footer />
-	</body>
-</html>
+<BaseLayout>
+	<Portfolio />
+	<ResearchPillars />
+	<RecentNews />
+	<FeaturedResearch />
+	<SelectedPublications />
+	<JobNote />
+</BaseLayout>

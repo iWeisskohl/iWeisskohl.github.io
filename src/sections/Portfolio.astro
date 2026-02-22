@@ -1,0 +1,59 @@
+---
+import authorJson from "../data/author.json";
+import Link from "../components/Link.astro";
+import LingImage from "../assets/ling-2.png";
+---
+
+<div class="flex flex-col gap-4">
+    <div class="bg-[url('../assets/home.jpg')] bg-cover bg-center flex gap-4">
+        <div class="bg-brand-mask px-layout flex gap-4">
+            <div class="flex items-end">
+                <img class="w-80 shrink-0" src={LingImage.src} />
+            </div>
+            <div
+                class="text-white flex flex-col items-left justify-center font-light gap-8 py-20"
+            >
+                <h1 class="text-4xl">
+                    Fusing Multi-Modal Medical Data with Reliable AI
+                </h1>
+                <h2 class="text-xl hyphens-auto">
+                    Postdoctoral Research Associate at Imperial College London.
+                    I develop trustworthy AI frameworks—focusing on uncertainty
+                    quantification and multi-modal fusion—to ensure
+                    state-of-the-art deep learning models are reliable,
+                    explainable, and safe.
+                </h2>
+
+                <div class="flex gap-4 flex-wrap">
+                    {
+                        authorJson.author.interests.map((interest) => (
+                            <Link
+                                href={interest.link}
+                                target="_blank"
+                                class="border border-white font-medium"
+                            >
+                                {interest.title}
+                            </Link>
+                        ))
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 
+<h2>{authorJson.author.name}</h2>
+        <p class="weak affiliations">
+            {authorJson.author.affiliations}
+        </p>
+        <div>
+            {
+                authorJson.author.interests.map((interest) => (
+                    <>
+                        <Link href={interest.link} target="_blank">
+                            {interest.title}
+                        </Link>
+                    </>
+                ))
+            }
+        </div> -->

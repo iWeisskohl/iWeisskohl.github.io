@@ -1,0 +1,20 @@
+---
+import Link from "../components/Link.astro";
+import PageSectionLayout from "../layouts/PageSectionLayout.astro";
+---
+
+<div
+    class="bg-[url('../assets/job.jpg')] bg-cover bg-center"
+>
+    <div class="bg-brand-mask items-center flex flex-col gap-4 py-8">
+        <h2 class="text-2xl text-white">
+            I am currently on the academic job market for Fall 2026
+        </h2>
+        <div class="flex gap-4">
+            <Link class="bg-white text-brand" href="/research-statement"
+                >Review Research Statement</Link
+            >
+            <Link class="bg-white text-brand" href="/contact">Contact Me</Link>
+        </div>
+    </div>
+</div>

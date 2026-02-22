@@ -1,0 +1,119 @@
+---
+import AboutHeroImage from "../assets/blog-placeholder-about.jpg";
+import Layout from "../layouts/BaseLayout.astro";
+import authorJson from "../data/author.json";
+import Link from "../components/Link.astro";
+import PageSectionLayout from "../layouts/PageSectionLayout.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Ul from "../components/Ul.astro";
+import Li from "../components/Li.astro";
+
+const API_KEY = process.env.SERPAPI_KEY;
+
+interface Article {
+	title: string;
+	link: string;
+	authors: string;
+	publication: string;
+	cited_by: {
+		value: number;
+		link: string;
+	} | null;
+	year: string;
+}
+
+interface Author {
+	author: {
+		name: string;
+		affiliations: string;
+		interests: {
+			title: string;
+			link: string;
+		}[];
+	};
+	articles: Article[];
+}
+
+const author: Author = await (async () => {
+	if (API_KEY) {
+		const request = await fetch(
+			`https://serpapi.com/search?api_key=${API_KEY}&engine=google_scholar_author&hl=en&author_id=HczSncoAAAAJ&num=100`,
+		);
+		const response = await request.json();
+		return response;
+	} else {
+		return authorJson;
+	}
+})();
+
+const { articles } = author;
+---
+
+<BaseLayout>
+	<div class="flex flex-col gap-2">
+		<div
+			class="text-white bg-[url('../assets/publication.jpg')] bg-cover bg-center rounded-md"
+		>
+			<div
+				class="py-30 bg-brand-mask flex flex-col gap-4 text-center px-layout"
+			>
+				<h1 class="text-4xl">Publications & Impact</h1>
+				<h3 class="text-2xl">
+					Advancing the frontiers of trustworthy AI and multi-modal
+					fusion
+				</h3>
+			</div>
+		</div>
+		<div class="flex flex-col gap-4 px-layout mt-6">
+			<Ul class="flex flex-col gap-6 items-start">
+				{
+					articles.map((article) => (
+						<Li>
+							<div class="flex flex-col md:flex-row gap-8 py-8 border-b border-sub">
+								<div class="md:w-32 shrink-0 text-sub md:border-r md:pr-6 md:text-right flex flex-row md:flex-col justify-between md:justify-start items-baseline md:items-end">
+									<div>
+										<div class="text-3xl font-light text-brand">
+											{article.cited_by?.value ?? 0}
+										</div>
+										<div class="text-xs uppercase tracking-widest text-base-sub font-bold mt-1">
+											Citations
+										</div>
+									</div>
+									<div class="text-base-sub font-medium md:mt-4">
+										{article.year}
+									</div>
+								</div>
+
+								<div class="grow">
+									<h3 class="text-lg font-bold text-base leading-snug mb-2">
+										{article.title}
+									</h3>
+
+									<p class="text-base-sub text-sm mb-1">
+										{article.authors.split(', ').map(name => (
+											<span class={name === 'L Huang' || name === '黄玲' ? 'font-semibold text-brand' : ''}>{name}</span>
+										)).reduce((prev, curr) => [prev, ', ', curr])}
+									</p>
+
+									<p class="text-base-sub text-sm italic mb-4">
+										{article.publication}
+									</p>
+
+									<Link
+										inline
+										href={article.link}
+										target="_blank"
+										rel="noopener noreferrer"
+										class="text-sm font-semibold text-base hover:text-secondary uppercase tracking-wide"
+									>
+										View on Scholar
+									</Link>
+								</div>
+							</div>
+						</Li>
+					))
+				}
+			</Ul>
+		</div>
+	</div>
+</BaseLayout>

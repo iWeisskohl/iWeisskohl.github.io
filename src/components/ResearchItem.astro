@@ -1,0 +1,17 @@
+---
+import Li from "./Li.astro";
+
+export interface Props {
+    title: string;
+    wrapperClass?: string;
+}
+
+const { title, wrapperClass } = Astro.props;
+---
+
+<Li markerClass="w-2 h-2 bg-secondary mr-2 self-start mt-2">
+    <div class={wrapperClass}>
+        <h3 class="font-bold">{title}</h3>
+        <p><slot /></p>
+    </div>
+</Li>

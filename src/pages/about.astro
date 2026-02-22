@@ -1,0 +1,226 @@
+---
+import FeaturedResearch from "../sections/FeaturedResearch.astro";
+import Portfolio from "../sections/Portfolio.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ResearchPillars from "../sections/ResearchPillars.astro";
+import SelectedPublications from "../sections/SelectedPublications.astro";
+import RecentNews from "../sections/RecentNews.astro";
+import JobNote from "../sections/JobNote.astro";
+import Ul from "../components/Ul.astro";
+import Li from "../components/Li.astro";
+import ResearchItem from "../components/ResearchItem.astro";
+import Link from "../components/Link.astro";
+import LingProfileImage from "../assets/ling-profile.jpg";
+---
+
+<BaseLayout>
+	<div class="flex flex-col gap-10">
+		<div
+			class="text-white bg-[url('../assets/about.jpg')] bg-cover bg-center rounded-md"
+		>
+			<div
+				class="py-30 bg-brand-mask flex flex-col gap-4 text-center px-layout"
+			>
+				<h1 class="text-4xl">About Dr. Ling Huang</h1>
+				<h3 class="text-2xl">
+					Research Fellow in Trustworthy Al for Healthcare at Imperial
+					College London.
+				</h3>
+			</div>
+		</div>
+		<div class="flex px-layout gap-6">
+			<img
+				class="rounded-full w-50 h-50 shrink-0 grow-0 border-8 border-secondary"
+				src={LingProfileImage.src}
+			/>
+			<div class="flex flex-col gap-4">
+				<h2 class="text-2xl">My Academic Journey</h2>
+				<p>
+					My research foundation was built during my doctoral studies
+					at the Université de Technologie de Compiègne (UTC) in
+					France. Working under the supervision of Prof. Thierry
+					Denoeux and Prof. Su Ruan, I specialized in evidential
+					theory and belief functions. This rigorous mathematical
+					training now forms the backbone of my current work on
+					uncertainty quantification in deep leaming. Following my
+					PhD, I expanded my expertise into practical clinical
+					applications as a Research Fellow at the National University
+					of Singapore (NUS), before ioining Imperial College London
+					to lead research on trustworthy multi-modal Al in
+					high-stakes clinical settings.
+				</p>
+			</div>
+		</div>
+
+		<div class="flex justify-center">
+			<Link href="/cv.pdf" class="bg-brand text-white rounded-md">Download Full CV</Link>
+		</div>
+
+		<div class="bg-sub-muted flex flex-col px-layout py-10 gap-2">
+			<h2 class="text-2xl section-header self-start">
+				Core Research Expertise
+			</h2>
+			<div class="flex gap-10">
+				<div class="flex flex-col gap-2">
+					<h3 class="text-lg text-center font-bold">
+						Theoretical Foundations
+					</h3>
+					<Ul class="flex flex-col gap-2">
+						<ResearchItem title="Dempster-Shafer Theory">
+							Developing robust mathematical frameworks to
+							explicitly model epistemic uncertainty and
+							conflicting evidence
+						</ResearchItem>
+						<ResearchItem title="Uncertainty Quantification">
+							Rigorously quantifying both data noise and model
+							ignorance to prevent overconfident, erroneous AI
+							predictions.
+						</ResearchItem>
+						<ResearchItem title="Causal Inference">
+							Applying causal methodologies to uncover complex,
+							real-world relationships within observational
+							healthcare data.
+						</ResearchItem>
+					</Ul>
+				</div>
+				<div class="grow"></div>
+				<div class="flex flex-col gap-2">
+					<h3 class="text-lg text-center font-bold">
+						AI & Computational Methods
+					</h3>
+					<Ul class="flex flex-col gap-2">
+						<ResearchItem title="Trustworthy AI Systems">
+							Designing explainable and transparent deep learning
+							architectures safe for high-stakes clinical
+							deployment.
+						</ResearchItem>
+						<ResearchItem title="Multimodal Info Fusion">
+							Synthesizing complementary data from diverse, noisy
+							modalities like medical imaging, EHRs, and clinical
+							notes.
+						</ResearchItem>
+						<ResearchItem title="Natural Language Processing">
+							Adapting Large Language Models (LLMs) to accurately
+							and safely extract insights from unstructured
+							medical text.
+						</ResearchItem>
+					</Ul>
+				</div>
+				<div class="grow"></div>
+				<div class="flex flex-col gap-2">
+					<h3 class="text-lg text-center font-bold">
+						Clinical Applications
+					</h3>
+					<Ul class="flex flex-col gap-2">
+						<ResearchItem title="Cardiovascular Computing">
+							Enhancing the robustness of echocardiogram analysis
+							and heart failure prediction despite noisy imaging
+							data.
+						</ResearchItem>
+						<ResearchItem title="Cancer Survival Analysis">
+							Integrating multimodal patient data to build highly
+							reliable prognostic models for personalized oncology
+							care.
+						</ResearchItem>
+						<ResearchItem title="Gene-Environment Analysis">
+							Investigating the complex, multifactorial interplay
+							between genetic factors and environmental health
+							exposures.
+						</ResearchItem>
+					</Ul>
+				</div>
+			</div>
+		</div>
+		<div class="flex px-layout gap-4">
+			<div class="flex flex-col gap-2 w-[30%]">
+				<h2 class="text-2xl text-brand section-header self-start">
+					Grants & Funding
+				</h2>
+				<div class="flex flex-col">
+					<h4 class="font-bold">
+						Dame Julia Higgins Postdoc Collaborative Research Fund |
+						2025 - 2026
+					</h4>
+					<h5>Principal Investigator (PI)</h5>
+					<p>
+						Project: Revolutionizing Cancer Survival Analysis
+						Through Trustworthy AI and Multimodal Integration
+					</p>
+				</div>
+				<div class="flex flex-col">
+					<h4 class="font-bold">
+						Dame Julia Higgins Postdoc Collaborative Research Fund |
+						2025 - 2026
+					</h4>
+					<h5>Co-Principal Investigator (Co-PI)</h5>
+					<p>
+						Project: Automating Environmental Health Literature
+						Screening Using Large Language Models
+					</p>
+				</div>
+			</div>
+			<div class="grow"></div>
+			<div class="flex flex-col gap-2 w-[30%]">
+				<h2 class="text-2xl text-brand section-header self-start">
+					Honors & Awards
+				</h2>
+				<Ul>
+					<ResearchItem title="IJAR Best Paper Award BELIEF">
+						International Conference on Belief Functions (BELIEF)
+						(2024)
+					</ResearchItem>
+					<ResearchItem title="Thesis Prize">
+						French Society of Biological and Medical Engineering
+						(SFGBM) (2024)
+					</ResearchItem>
+					<ResearchItem title="Frontrunner 5000">
+						Top Articles from Outstanding S&T Journals of China
+						(2021)
+					</ResearchItem>
+					<ResearchItem title="High Impact Paper">
+						Journal of Software (2019, 2020)
+					</ResearchItem>
+					<ResearchItem title="Excellent Graduation Thesis">
+						Zhejiang University of Technology (2019)
+					</ResearchItem>
+					<ResearchItem title="Chinese National Scholarship (2017)" />
+				</Ul>
+			</div>
+			<div class="grow"></div>
+			<div class="flex flex-col gap-2 w-[30%]">
+				<h2 class="text-2xl text-brand section-header self-start">
+					Professional Service
+				</h2>
+				<div class="flex flex-col">
+					<h4 class="font-bold">Editorial Board Member</h4>
+					<p>Information Fusion</p>
+				</div>
+				<div class="flex flex-col">
+					<h4 class="font-bold">Committee Member</h4>
+					<p>
+						International Conference on Belief Functions (BELIEF
+						2026)
+					</p>
+				</div>
+				<div class="flex flex-col">
+					<h4 class="font-bold">Peer Reviewer</h4>
+					<Ul>
+						<Li markerClass="w-2 h-2 bg-secondary mr-2"
+							>Information Fusion</Li
+						>
+						<Li markerClass="w-2 h-2 bg-secondary mr-2"
+							>Medical Image Analysis</Li
+						>
+						<Li markerClass="w-2 h-2 bg-secondary mr-2"
+							>Knowledge-Based Systems</Li
+						>
+						<Li markerClass="w-2 h-2 bg-secondary mr-2"
+							>International Journal of Approximate Reasoning
+							(IJAR)</Li
+						>
+					</Ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</BaseLayout>

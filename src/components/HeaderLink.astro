@@ -5,7 +5,7 @@ type Props = HTMLAttributes<'a'>;
 
 const { pathname } = Astro.url;
 
-const active = pathname === Astro.props.href;
+const active = pathname.replace(/\/$/g, '') === Astro.props.href?.toString().replace(/\/$/g, '');
 
 const textClass = active ?
 	'text-brand' : '';

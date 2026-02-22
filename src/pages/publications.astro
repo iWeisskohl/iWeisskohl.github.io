@@ -5,8 +5,7 @@ import PageSectionLayout from "../layouts/PageSectionLayout.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Ul from "../components/Ul.astro";
 import Li from "../components/Li.astro";
-
-const API_KEY = process.env.SERPAPI_KEY;
+import fs from "fs";
 
 interface Article {
 	title: string;
@@ -33,9 +32,9 @@ interface Author {
 }
 
 const author: Author = await (async () => {
-	if (API_KEY) {
+	if (process.env.SERPAPI_KEY) {
 		const request = await fetch(
-			`https://serpapi.com/search?api_key=${API_KEY}&engine=google_scholar_author&hl=en&author_id=HczSncoAAAAJ&num=100`,
+			`https://serpapi.com/search?api_key=${process.env.SERPAPI_KEY}&engine=google_scholar_author&hl=en&author_id=HczSncoAAAAJ&num=100`,
 		);
 		const response = await request.json();
 		return response;
@@ -65,19 +64,11 @@ const { articles } = author;
 		<div class="flex flex-col gap-4 px-layout mt-6">
 			<Ul class="flex flex-col gap-6 items-start">
 				{
-					articles.map((article) => (
+					articles.sort((a, b) => parseInt(b.year) - parseInt(a.year)).map((article) => (
 						<Li>
 							<div class="flex flex-col md:flex-row gap-8 py-8 border-b border-sub">
 								<div class="md:w-32 shrink-0 text-sub md:border-r md:pr-6 md:text-right flex flex-row md:flex-col justify-between md:justify-start items-baseline md:items-end">
-									<div>
-										<div class="text-3xl font-light text-brand">
-											{article.cited_by?.value ?? 0}
-										</div>
-										<div class="text-xs uppercase tracking-widest text-base-sub font-bold mt-1">
-											Citations
-										</div>
-									</div>
-									<div class="text-base-sub font-medium md:mt-4">
+									<div class="text-3xl text-base-sub font-light md:mt-4">
 										{article.year}
 									</div>
 								</div>
@@ -89,7 +80,7 @@ const { articles } = author;
 
 									<p class="text-base-sub text-sm mb-1">
 										{article.authors.split(', ').map(name => (
-											<span class={name === 'L Huang' || name === '黄玲' ? 'font-semibold text-brand' : ''}>{name}</span>
+											<span class={name === 'L Huang' || name === '黄玲' ? 'font-semibold text-base' : ''}>{name}</span>
 										)).reduce((prev, curr) => [prev, ', ', curr])}
 									</p>
 

@@ -4,11 +4,11 @@ import BlogPost from '../layouts/BlogPost.astro';
 import { getEntry } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const entry = await getEntry('featuredResearch', 'index');
+const entry = await getEntry('researchStatement', 'index');
 
 const { Content } = await render(entry!);
 ---
 
-<BlogPost title={entry!.data.title}>
+<BaseLayout>
 	<Content />
-</BlogPost>
+</BaseLayout>

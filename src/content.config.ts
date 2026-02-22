@@ -51,4 +51,14 @@ const researchOverview = defineCollection({
 		}),
 })
 
-export const collections = { blog, recentNews, featuredResearch, researchOverview };
+const researchStatement = defineCollection({
+	loader: glob({ base: './src/content/research-statement', pattern: '**/*.{md,mdx}' }),
+	schema: ({ image }) =>
+		z.object({
+			title: z.string(),
+			description: z.string(),
+			heroImage: image().optional(),
+		}),
+})
+
+export const collections = { blog, recentNews, featuredResearch, researchOverview, researchStatement };

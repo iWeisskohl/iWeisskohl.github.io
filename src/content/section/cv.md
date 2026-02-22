@@ -1,1 +1,0 @@
-[Download my CV](/cv.txt)

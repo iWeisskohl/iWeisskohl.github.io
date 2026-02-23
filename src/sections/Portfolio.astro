@@ -2,13 +2,18 @@
 import authorJson from "../data/author.json";
 import Link from "../components/Link.astro";
 import LingImage from "../assets/ling-2.png";
+import { Image } from "astro:assets";
 ---
 
 <div class="flex flex-col gap-4">
     <div class="bg-[url('../assets/home.jpg')] bg-cover bg-center flex gap-4">
         <div class="bg-brand-mask px-layout flex gap-4">
             <div class="flex items-end">
-                <img class="w-80 shrink-0" src={LingImage.src} />
+                <Image
+                    alt="Dr. Ling Huang profile picture"
+                    class="w-80 shrink-0"
+                    src={LingImage!}
+                />
             </div>
             <div
                 class="text-white flex flex-col items-left justify-center font-light gap-8 py-20"

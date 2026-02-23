@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
 
 const collection = await getCollection("researchOverview");
 ---
@@ -34,9 +35,10 @@ const collection = await getCollection("researchOverview");
 								<a href=`/research/${entry.id}`>{entry.data.title}</a>
 							</h2>
 							<div class="flex gap-6">
-								<img
+								<Image
 									class="shrink-0 grow-0 w-70 h-70 self-center"
-									src={entry.data.heroImage?.src}
+									src={entry.data.heroImage!}
+									alt={entry.data.title ?? 'Research Overview Hero Image'}
 								/>
 								<div class="flex flex-col gap-2">
 									<p>

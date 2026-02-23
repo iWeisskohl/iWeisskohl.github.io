@@ -7,6 +7,7 @@ approach: 'Utilizing Belief Function Theory, this approach fuses structured elec
 keyFindings: 'The uncertainty-aware fusion model significantly improved the reliability of predicting patient outcomes in the ICU by successfully flagging low-confidence predictions and deferring to human clinicians.'
 relatedPublication: 'Ruan, Y., Tan, D.J., Ng, S.K., Huang, L., & Feng, M. (2024). "Towards accurate and reliable ICU outcome prediction: a multimodal learning framework based on belief function theory using structured EHRs and free-text notes."'
 heroImage: '../../assets/project-1.png'
+pdfFile: '/public/cv.pdf'
 ---
 
 **The Challenge**: Intensive Care Units generate massive amounts of disconnected data—noisy vitals from sensors, structured lab results from EHRs, and unstructured free-text notes from clinicians. Current AI models often struggle to integrate these diverse modalities and, critically, fail to communicate when their predictions are uncertain due to missing or conflicting data.

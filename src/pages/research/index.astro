@@ -2,15 +2,19 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
+import ResearchOverviewImage from "../../assets/research-overview.jpg";
 
 const collection = await getCollection("researchOverview");
 ---
 
 <BaseLayout>
 	<div class="flex flex-col gap-10">
-		<div
-			class="text-white bg-[url('../assets/research-overview.jpg')] bg-cover bg-center rounded-md"
-		>
+		<div class="text-white relative">
+			<Image
+				alt="Research overview background image"
+				class="absolute inset-0 w-full h-full object-cover -z-10"
+				src={ResearchOverviewImage!}
+			/>
 			<div class="py-30 bg-brand-mask text-center flex flex-col gap-4 px-layout">
 				<h1 class="text-4xl">Research Overview</h1>
 				<h3 class="text-2xl">

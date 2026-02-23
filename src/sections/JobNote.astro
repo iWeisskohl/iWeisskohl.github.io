@@ -1,11 +1,16 @@
 ---
 import Link from "../components/Link.astro";
-import PageSectionLayout from "../layouts/PageSectionLayout.astro";
+import JobImage from "../assets/job.jpg";
+import { Image } from "astro:assets";
+
 ---
 
-<div
-    class="bg-[url('../assets/job.jpg')] bg-cover bg-center"
->
+<div class="relative">
+    <Image
+        alt="Job background image"
+        class="absolute inset-0 w-full h-full object-cover -z-10"
+        src={JobImage!}
+    />
     <div class="bg-brand-mask items-center flex flex-col gap-4 py-8">
         <h2 class="text-2xl text-white">
             I am currently on the academic job market for Fall 2026

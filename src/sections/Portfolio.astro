@@ -3,10 +3,16 @@ import authorJson from "../data/author.json";
 import Link from "../components/Link.astro";
 import LingImage from "../assets/ling-2.png";
 import { Image } from "astro:assets";
+import HomeImage from "../assets/home.jpg";
 ---
 
-<div class="flex flex-col gap-4">
-    <div class="bg-[url('../assets/home.jpg')] bg-cover bg-center flex gap-4">
+<div class="text-white relative">
+    <Image
+        alt="Home background image"
+        class="absolute inset-0 w-full h-full object-cover -z-10"
+        src={HomeImage!}
+    />
+    <div class="flex gap-4">
         <div class="bg-brand-mask px-layout flex gap-4">
             <div class="flex items-end">
                 <Image

@@ -12,13 +12,18 @@ import ResearchItem from "../components/ResearchItem.astro";
 import Link from "../components/Link.astro";
 import LingProfileImage from "../assets/ling-profile.jpg";
 import { Image } from "astro:assets";
+import AboutImage from "../assets/about.jpg";
+
 ---
 
 <BaseLayout>
 	<div class="flex flex-col gap-10">
-		<div
-			class="text-white bg-[url('../assets/about.jpg')] bg-cover bg-center rounded-md"
-		>
+		<div class="text-white relative">
+			<Image
+				alt="About background image"
+				class="absolute inset-0 w-full h-full object-cover -z-10"
+				src={AboutImage!}
+			/>
 			<div
 				class="py-30 bg-brand-mask flex flex-col gap-4 text-center px-layout"
 			>

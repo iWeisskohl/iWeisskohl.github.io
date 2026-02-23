@@ -2,13 +2,19 @@
 import Link from "../components/Link.astro";
 import PageSectionLayout from "../layouts/PageSectionLayout.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ContactImage from "../assets/contact.jpg";
+import { Image } from "astro:assets";
+
 ---
 
 <BaseLayout>
 	<div class="flex flex-col gap-2">
-		<div
-			class="text-white bg-[url('../assets/contact.jpg')] bg-cover bg-center rounded-md"
-		>
+		<div class="text-white relative">
+			<Image
+				alt="Contact background image"
+				class="absolute inset-0 w-full h-full object-cover -z-10"
+				src={ContactImage!}
+			/>
 			<div
 				class="py-30 bg-brand-mask flex flex-col gap-4 text-center px-layout"
 			>

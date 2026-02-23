@@ -15,7 +15,7 @@ const featuredResearchDoc = await getEntry("featuredResearch", "index");
             alt={featuredResearchDoc?.data.title ??
                 "Featured Research Hero Image"}
         />
-        <div class="flex flex-col items-start gap-4">
+        <div class="flex flex-col sm:items-start gap-4">
             <h3 class="text-2xl font-medium">
                 {featuredResearchDoc?.data.title}
             </h3>
@@ -24,7 +24,7 @@ const featuredResearchDoc = await getEntry("featuredResearch", "index");
                     .split("\n\n")
                     .map((paragraph) => <p class="hyphens-auto">{paragraph}</p>)
             }
-            <Link class="bg-brand text-white" href="/featured-research"
+            <Link class="bg-brand text-white text-center md:text-left" href="/featured-research"
                 >Dive Deeper</Link
             >
         </div>

@@ -35,13 +35,13 @@ import HomeImage from "../assets/home.jpg";
                     explainable, and safe.
                 </h2>
 
-                <div class="flex gap-4 flex-wrap">
+                <div class="flex gap-4 flex-wrap flex-col sm:flex-row">
                     {
                         authorJson.author.interests.map((interest) => (
                             <Link
                                 href={interest.link}
                                 target="_blank"
-                                class="border border-white font-medium"
+                                class="border border-white font-medium text-center md:text-left"
                             >
                                 {interest.title}
                             </Link>

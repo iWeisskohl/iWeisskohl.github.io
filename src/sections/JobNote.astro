@@ -11,15 +11,15 @@ import { Image } from "astro:assets";
         class="absolute inset-0 w-full h-full object-cover -z-10"
         src={JobImage!}
     />
-    <div class="bg-brand-mask items-center flex flex-col gap-4 py-8 px-layout md:px-layout-md sm:sm:px-layout-sm px-layout">
-        <h2 class="text-2xl text-white">
+    <div class="bg-brand-mask sm:items-center flex flex-col gap-4 py-8 px-layout md:px-layout-md sm:sm:px-layout-sm">
+        <h2 class="text-2xl text-white text-center">
             I am currently on the academic job market for Fall 2026
         </h2>
-        <div class="flex gap-4 flex-col sm:flex-row items-center">
-            <Link class="bg-white text-base" href="/research-statement"
+        <div class="flex gap-4 flex-col sm:flex-row">
+            <Link class="bg-white text-base text-center sm:text-left" href="/research-statement"
                 >Review Research Statement</Link
             >
-            <Link class="bg-white text-base" href="/contact">Contact Me</Link>
+            <Link class="bg-white text-base text-center sm:text-left" href="/contact">Contact Me</Link>
         </div>
     </div>
 </div>

@@ -34,6 +34,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Astro Deploy
         uses: withastro/action@v2.0.0
+        env: # Or as an environment variable
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         with:
           path: ./
   # Deployment job

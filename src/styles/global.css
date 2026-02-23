@@ -3,7 +3,10 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --spacing-layout: calc(var(--spacing) * 25);
+  --spacing-layout-lg: calc(var(--spacing) * 25);
+  --spacing-layout-md: calc(var(--spacing) * 20);
+  --spacing-layout-sm: calc(var(--spacing) * 10);
+  --spacing-layout: calc(var(--spacing) * 10);
 
   --color-base: #2c3e50;
 

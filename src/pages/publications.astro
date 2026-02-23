@@ -58,7 +58,7 @@ const { articles } = author;
 				src={PublicationsImage!}
 			/>
 			<div
-				class="py-30 bg-brand-mask flex flex-col gap-4 text-center px-layout"
+				class="py-30 bg-brand-mask flex flex-col gap-4 text-center lg:px-layout-lg md:px-layout-md sm:px-layout-sm px-layout"
 			>
 				<h1 class="text-4xl">Publications & Impact</h1>
 				<h3 class="text-2xl">
@@ -67,13 +67,13 @@ const { articles } = author;
 				</h3>
 			</div>
 		</div>
-		<div class="flex flex-col gap-4 px-layout mt-6">
-			<Ul class="flex flex-col gap-6 items-start">
+		<div class="flex flex-col gap-4 lg:px-layout-lg md:px-layout-md sm:px-layout-sm px-layout mt-6">
+			<Ul class="flex flex-col gap-6 items-stretch">
 				{
 					articles.map((article) => (
 						<Li>
-							<div class="flex flex-col md:flex-row gap-8 py-8 border-b border-sub">
-								<div class="md:w-32 shrink-0 text-sub md:border-r md:pr-6 md:text-right flex flex-row md:flex-col justify-between md:justify-start items-baseline md:items-end">
+							<div class="grow flex flex-col md:flex-row gap-8 py-8 border-b border-sub">
+								<div class="md:w-32 shrink-0 text-sub md:border-r md:pr-6 md:text-right flex flex-row md:flex-col justify-between items-baseline md:items-end">
 									<div>
 										<div class="text-3xl font-light text-brand">
 											{article.cited_by?.value ?? 0}
@@ -82,7 +82,7 @@ const { articles } = author;
 											Citations
 										</div>
 									</div>
-									<div class="text-base-sub font-medium md:mt-4">
+									<div class="text-base-sub font-medium lg:mt-4">
 										{article.year}
 									</div>
 								</div>

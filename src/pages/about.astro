@@ -25,7 +25,7 @@ import AboutImage from "../assets/about.jpg";
 				src={AboutImage!}
 			/>
 			<div
-				class="py-30 bg-brand-mask flex flex-col gap-4 text-center px-layout"
+				class="py-30 bg-brand-mask flex flex-col gap-4 text-center lg:px-layout-lg md:px-layout-md sm:px-layout-sm px-layout"
 			>
 				<h1 class="text-4xl">About Dr. Ling Huang</h1>
 				<h3 class="text-2xl">
@@ -34,14 +34,14 @@ import AboutImage from "../assets/about.jpg";
 				</h3>
 			</div>
 		</div>
-		<div class="flex px-layout gap-6">
+		<div class="flex flex-col md:flex-row lg:px-layout-lg md:px-layout-md sm:px-layout-sm px-layout gap-6">
 			<Image
-				class="rounded-full w-50 h-50 shrink-0 grow-0 border-8 border-secondary"
+				class="self-center md:self-start rounded-full w-50 h-50 shrink-0 grow-0 border-8 border-secondary"
 				src={LingProfileImage!}
 				alt="Dr. Ling Huang profile picture"
 			/>
 			<div class="flex flex-col gap-4">
-				<h2 class="text-2xl">My Academic Journey</h2>
+				<h2 class="text-center md:text-left text-2xl">My Academic Journey</h2>
 				<p>
 					My research foundation was built during my doctoral studies
 					at the Université de Technologie de Compiègne (UTC) in
@@ -63,11 +63,11 @@ import AboutImage from "../assets/about.jpg";
 			<Link href="/cv.pdf" class="bg-brand text-white rounded-md">Download Full CV</Link>
 		</div>
 
-		<div class="bg-sub-muted flex flex-col px-layout py-10 gap-2">
+		<div class="bg-sub-muted flex flex-col lg:px-layout-lg md:px-layout-md sm:px-layout-sm px-layout py-10 gap-2">
 			<h2 class="text-2xl section-header self-start">
 				Core Research Expertise
 			</h2>
-			<div class="flex gap-10">
+			<div class="flex gap-5 flex-col lg:flex-row">
 				<div class="flex flex-col gap-2">
 					<h3 class="text-lg text-center font-bold">
 						Theoretical Foundations
@@ -138,8 +138,8 @@ import AboutImage from "../assets/about.jpg";
 				</div>
 			</div>
 		</div>
-		<div class="flex px-layout gap-4">
-			<div class="flex flex-col gap-2 w-[30%]">
+		<div class="flex flex-col lg:flex-row lg:px-layout-lg md:px-layout-md sm:px-layout-sm px-layout gap-4">
+			<div class="flex flex-col gap-2 lg:w-[30%]">
 				<h2 class="text-2xl text-brand section-header self-start">
 					Grants & Funding
 				</h2>
@@ -167,7 +167,7 @@ import AboutImage from "../assets/about.jpg";
 				</div>
 			</div>
 			<div class="grow"></div>
-			<div class="flex flex-col gap-2 w-[30%]">
+			<div class="flex flex-col gap-2 lg:w-[30%]">
 				<h2 class="text-2xl text-brand section-header self-start">
 					Honors & Awards
 				</h2>
@@ -194,7 +194,7 @@ import AboutImage from "../assets/about.jpg";
 				</Ul>
 			</div>
 			<div class="grow"></div>
-			<div class="flex flex-col gap-2 w-[30%]">
+			<div class="flex flex-col gap-2 lg:w-[30%]">
 				<h2 class="text-2xl text-brand section-header self-start">
 					Professional Service
 				</h2>

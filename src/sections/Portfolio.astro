@@ -13,16 +13,16 @@ import HomeImage from "../assets/home.jpg";
         src={HomeImage!}
     />
     <div class="flex gap-4">
-        <div class="bg-brand-mask px-layout flex gap-4">
+        <div class="bg-brand-mask lg:px-layout-lg md:px-layout-md sm:px-layout-sm px-layout flex gap-4">
             <div class="flex items-end">
                 <Image
                     alt="Dr. Ling Huang profile picture"
-                    class="w-80 shrink-0"
+                    class="w-0 collapse lg:shrink-0  lg:w-80 lg:visible"
                     src={LingImage!}
                 />
             </div>
             <div
-                class="text-white flex flex-col items-left justify-center font-light gap-8 py-20"
+                class="text-white flex flex-col items-left justify-center font-light gap-8 py-15"
             >
                 <h1 class="text-4xl">
                     Fusing Multi-Modal Medical Data with Reliable AI
@@ -52,19 +52,3 @@ import HomeImage from "../assets/home.jpg";
         </div>
     </div>
 </div>
-<!-- 
-<h2>{authorJson.author.name}</h2>
-        <p class="weak affiliations">
-            {authorJson.author.affiliations}
-        </p>
-        <div>
-            {
-                authorJson.author.interests.map((interest) => (
-                    <>
-                        <Link href={interest.link} target="_blank">
-                            {interest.title}
-                        </Link>
-                    </>
-                ))
-            }
-        </div> -->

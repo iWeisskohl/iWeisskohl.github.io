@@ -4,7 +4,6 @@ import PageSectionLayout from "../layouts/PageSectionLayout.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ContactImage from "../assets/contact.jpg";
 import { Image } from "astro:assets";
-
 ---
 
 <BaseLayout>
@@ -16,7 +15,7 @@ import { Image } from "astro:assets";
 				src={ContactImage!}
 			/>
 			<div
-				class="py-30 bg-brand-mask flex flex-col gap-4 text-center px-layout"
+				class="py-30 bg-brand-mask flex flex-col gap-4 text-center lg:px-layout-lg md:px-layout-md sm:px-layout-sm px-layout"
 			>
 				<h1 class="text-4xl">Contact & Collaboration</h1>
 				<h3 class="text-2xl">
@@ -26,8 +25,8 @@ import { Image } from "astro:assets";
 		</div>
 	</div>
 	<PageSectionLayout title="Get in Touch">
-		<div class="flex gap-4">
-			<div class="flex flex-col gap-4">
+		<div class="flex gap-4 flex-col lg:flex-row">
+			<div class="flex flex-col gap-4 grow lg:basis-[50%]">
 				<p>
 					I am always open to exploring new academic collaborations,
 					speaking engagements, and interdisciplinary projects. If you
@@ -38,13 +37,13 @@ import { Image } from "astro:assets";
 				<form
 					action="https://formspree.io/f/xlgwpvpa"
 					method="POST"
-					class="max-w-2xl mx-auto w-full font-sans"
+					class=""
 				>
 					<div class="flex flex-col sm:flex-row sm:gap-5">
-						<div class="w-full mb-5">
+						<div class="mb-5">
 							<label
 								for="name"
-								class="block text-sm font-bold text-[#004225] mb-2"
+								class="block text-sm font-bold text-brand mb-2"
 								>Name</label
 							>
 							<input
@@ -53,13 +52,13 @@ import { Image } from "astro:assets";
 								name="name"
 								placeholder="Dr. Jane Doe"
 								required
-								class="w-full p-3 border border-gray-300 rounded-md text-base text-gray-800 bg-white transition-all duration-300 outline-none focus:border-[#D4AF37] focus:ring-2 focus:ring-[#D4AF37]/40"
+								class="w-full p-3 border border-gray-300 rounded-md text-base bg-white transition-all duration-300 outline-none focus:border-secondary focus:ring-2 focus:ring-secondary/40"
 							/>
 						</div>
 						<div class="w-full mb-5">
 							<label
 								for="email"
-								class="block text-sm font-bold text-[#004225] mb-2"
+								class="block text-sm font-bold text-brand mb-2"
 								>Email</label
 							>
 							<input
@@ -68,7 +67,7 @@ import { Image } from "astro:assets";
 								name="email"
 								placeholder="jane.doe@university.edu"
 								required
-								class="w-full p-3 border border-gray-300 rounded-md text-base text-gray-800 bg-white transition-all duration-300 outline-none focus:border-[#D4AF37] focus:ring-2 focus:ring-[#D4AF37]/40"
+								class="w-full p-3 border border-gray-300 rounded-md text-base bg-white transition-all duration-300 outline-none focus:border-secondary focus:ring-2 focus:ring-secondary/40"
 							/>
 						</div>
 					</div>
@@ -76,7 +75,7 @@ import { Image } from "astro:assets";
 					<div class="w-full mb-5">
 						<label
 							for="subject"
-							class="block text-sm font-bold text-[#004225] mb-2"
+							class="block text-sm font-bold text-brand mb-2"
 							>Subject</label
 						>
 						<input
@@ -85,14 +84,14 @@ import { Image } from "astro:assets";
 							name="subject"
 							placeholder="e.g., Research Collaboration Inquiry"
 							required
-							class="w-full p-3 border border-gray-300 rounded-md text-base text-gray-800 bg-white transition-all duration-300 outline-none focus:border-[#D4AF37] focus:ring-2 focus:ring-[#D4AF37]/40"
+							class="w-full p-3 border border-gray-300 rounded-md text-base bg-white transition-all duration-300 outline-none focus:border-secondary focus:ring-2 focus:ring-secondary/40"
 						/>
 					</div>
 
 					<div class="w-full mb-5">
 						<label
 							for="message"
-							class="block text-sm font-bold text-[#004225] mb-2"
+							class="block text-sm font-bold text-brand mb-2"
 							>Message</label
 						>
 						<textarea
@@ -101,7 +100,7 @@ import { Image } from "astro:assets";
 							rows="6"
 							placeholder="How can we work together?"
 							required
-							class="w-full p-3 border border-gray-300 rounded-md text-base text-gray-800 bg-white transition-all duration-300 outline-none focus:border-[#D4AF37] focus:ring-2 focus:ring-[#D4AF37]/40 resize-y"
+							class="w-full p-3 border border-gray-300 rounded-md text-base bg-white transition-all duration-300 outline-none focus:border-secondary focus:ring-2 focus:ring-secondary/40 resize-y"
 						></textarea>
 					</div>
 
@@ -113,12 +112,10 @@ import { Image } from "astro:assets";
 					</button>
 				</form>
 			</div>
-			<div>
+			<div class="grow h-100 lg:h-auto lg:basis-[50%]">
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.783089039409!2d-0.238355423379335!3d51.51719537181555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487611d51b08dbf9%3A0x50852b99e2db6796!2sHammersmith%20Hospital!5e0!3m2!1sen!2suk!4v1771768746415!5m2!1sen!2suk"
-					width="600"
-					height="450"
-					style="border:0;"
+					class="w-full h-full"
 					allowfullscreen=""
 					loading="lazy"
 					referrerpolicy="no-referrer-when-downgrade"></iframe>

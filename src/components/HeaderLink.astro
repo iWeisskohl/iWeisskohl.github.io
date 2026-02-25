@@ -8,7 +8,7 @@ const { pathname } = Astro.url;
 const active = pathname.replace(/\/$/g, '') === Astro.props.href?.toString().replace(/\/$/g, '');
 
 const textClass = active ?
-	'text-brand' : '';
+	'text-brand dark:text-secondary' : '';
 
 const decorationClass = active ? 
 	'h-1' : 'h-0'

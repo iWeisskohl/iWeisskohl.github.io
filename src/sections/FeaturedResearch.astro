@@ -24,7 +24,7 @@ const featuredResearchDoc = await getEntry("featuredResearch", "index");
                     .split("\n\n")
                     .map((paragraph) => <p class="hyphens-auto">{paragraph}</p>)
             }
-            <Link class="bg-brand text-white text-center md:text-left" href="/featured-research"
+            <Link class="bg-brand text-white dark:border dark:border-secondary text-center md:text-left" href="/featured-research"
                 >Dive Deeper</Link
             >
         </div>

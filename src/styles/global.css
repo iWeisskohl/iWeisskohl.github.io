@@ -34,6 +34,8 @@
     /* Apply it globally using the generated utility or the variable */
     @apply text-base;
     @apply bg-page-bg;
+    @apply dark:text-white;
+    @apply dark:bg-base;
   }
 }
 
@@ -41,6 +43,8 @@
   @apply mb-4;
 
   position: relative;
+  @apply text-brand;
+  @apply dark:text-white;
   
   /* Use the & to target the pseudo-element */
   &::after {

@@ -72,33 +72,33 @@ const { articles } = author;
 				{
 					articles.map((article) => (
 						<Li>
-							<div class="grow flex flex-col md:flex-row gap-8 py-8 border-b border-sub">
-								<div class="md:w-32 shrink-0 text-sub md:border-r md:pr-6 md:text-right flex flex-row md:flex-col justify-between items-baseline md:items-end">
+							<div class="grow flex flex-col md:flex-row gap-8 py-8 border-b border-sub dark:border-white-darken">
+								<div class="md:w-32 shrink-0 text-sub md:border-r border-sub dark:border-white-darken md:pr-6 md:text-right flex flex-row md:flex-col justify-between items-baseline md:items-end">
 									<div>
-										<div class="text-3xl font-light text-brand">
+										<div class="text-3xl font-light text-brand dark:text-white">
 											{article.cited_by?.value ?? 0}
 										</div>
-										<div class="text-xs uppercase tracking-widest text-base-sub font-bold mt-1">
+										<div class="text-xs uppercase tracking-widest text-base-sub dark:text-white-darken font-bold mt-1">
 											Citations
 										</div>
 									</div>
-									<div class="text-base-sub font-medium lg:mt-4">
+									<div class="text-base-sub dark:text-white-darken font-medium lg:mt-4">
 										{article.year}
 									</div>
 								</div>
 
 								<div class="grow">
-									<h3 class="text-lg font-bold text-base leading-snug mb-2">
+									<h3 class="text-lg font-bold text-base dark:text-white leading-snug mb-2">
 										{article.title}
 									</h3>
 
-									<p class="text-base-sub text-sm mb-1">
+									<p class="text-base-sub text-sm mb-1 dark:text-white-darken">
 										{article.authors.split(', ').map(name => (
-											<span class={name === 'L Huang' || name === '黄玲' ? 'font-semibold text-brand' : ''}>{name}</span>
+											<span class={name === 'L Huang' || name === '黄玲' ? 'font-semibold text-brand dark:text-white' : ''}>{name}</span>
 										)).reduce((prev, curr) => [prev, ', ', curr])}
 									</p>
 
-									<p class="text-base-sub text-sm italic mb-4">
+									<p class="text-base-sub text-sm italic mb-4 dark:text-white-darken">
 										{article.publication}
 									</p>
 
@@ -107,7 +107,7 @@ const { articles } = author;
 										href={article.link}
 										target="_blank"
 										rel="noopener noreferrer"
-										class="text-sm font-semibold text-base hover:text-secondary uppercase tracking-wide"
+										class="text-sm font-semibold dark:text-secondary dark:hover:text-secondary-lighten text-base hover:text-secondary uppercase tracking-wide"
 									>
 										View on Scholar
 									</Link>

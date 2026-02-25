@@ -14,6 +14,8 @@
 
   --color-secondary: #d4af37;
 
+  --color-secondary-lighten: color-mix(in srgb, var(--color-secondary), white 40%);
+
   --color-active: color-mix(in srgb, var(--color-brand), white 50%);
 
   --color-base-sub: color-mix(in srgb, var(--color-base), transparent 40%);
@@ -21,6 +23,8 @@
   --color-sub: color-mix(in srgb, var(--color-base), transparent 80%);
 
   --color-white: #f8f9fa;
+
+  --color-white-darken: color-mix(in srgb, var(--color-white), transparent 80%);
 
   --color-page-bg: var(--color-white);
 

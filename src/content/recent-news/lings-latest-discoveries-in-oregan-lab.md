@@ -19,8 +19,8 @@ The sheer scale and complexity of this data required advanced machine learning t
 * **Cardiac Magnetic Resonance (CMR) imaging** to extract precise structural phenotypes of the heart.
 * **Longitudinal health outcomes** tracking major adverse cardiovascular events (MACE).
 
-### Gene-Environment Interactions and Cardiac Remodeling
-The machine learning analysis yielded stark findings. The team discovered that higher levels of chronic inflammation are directly associated with "restrictive cardiac remodeling"—a condition where the heart's left ventricle experiences reduced volume, forcing it to beat faster to compensate. 
+### Gene-Environment Interactions and Cardiac Remodelling
+The machine learning analysis yielded stark findings. The team discovered that higher levels of chronic inflammation are directly associated with "restrictive cardiac remodelling"—a condition where the heart's left ventricle experiences reduced volume, forcing it to beat faster to compensate. 
 
 
 

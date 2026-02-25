@@ -43,8 +43,6 @@ const researchStatement = defineCollection({
 	schema: ({ image }) =>
 		z.object({
 			title: z.string(),
-			description: z.string(),
-			heroImage: image().optional(),
 			pdfFile: z.string().optional(),
 		}),
 })

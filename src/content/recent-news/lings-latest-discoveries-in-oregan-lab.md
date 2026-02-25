@@ -3,7 +3,7 @@ title: 'Pioneering Cardiovascular AI: Dr. Ling Huang’s Latest Discoveries in t
 pubDate: 'Feb-01-2026'
 ---
 
-**LONDON** — Artificial intelligence is fundamentally reshaping how we understand the human heart, and Dr. Ling Huang is helping lead the charge. As a Research Associate in Biostatistics and Machine Learning at the renowned **O'Regan Lab** (MRC Laboratory of Medical Sciences, Imperial College London), Dr. Huang is applying her deep expertise in trustworthy AI to uncover hidden cardiovascular risks before they become life-threatening. 
+**LONDON**  -  Artificial intelligence is fundamentally reshaping how we understand the human heart, and Dr. Ling Huang is helping lead the charge. As a Research Associate in Biostatistics and Machine Learning at the renowned **O'Regan Lab** (MRC Laboratory of Medical Sciences, Imperial College London), Dr. Huang is applying her deep expertise in trustworthy AI to uncover hidden cardiovascular risks before they become life-threatening. 
 
 Working under the leadership of Professor Declan P. O'Regan, BHF Chair of Cardiovascular AI, Dr. Huang recently co-authored a massive, multi-modal study that leverages one of the world's most comprehensive health databases: the UK Biobank.
 
@@ -20,7 +20,7 @@ The sheer scale and complexity of this data required advanced machine learning t
 * **Longitudinal health outcomes** tracking major adverse cardiovascular events (MACE).
 
 ### Gene-Environment Interactions and Cardiac Remodelling
-The machine learning analysis yielded stark findings. The team discovered that higher levels of chronic inflammation are directly associated with "restrictive cardiac remodelling"—a condition where the heart's left ventricle experiences reduced volume, forcing it to beat faster to compensate. 
+The machine learning analysis yielded stark findings. The team discovered that higher levels of chronic inflammation are directly associated with "restrictive cardiac remodelling" - a condition where the heart's left ventricle experiences reduced volume, forcing it to beat faster to compensate. 
 
 
 
@@ -29,6 +29,6 @@ Furthermore, the research mapped out the complex "exposome" (environmental facto
 ### Building on a Foundation of Trustworthy AI
 Extracting such nuanced, causal insights from half a million patients is practically impossible without highly reliable algorithms. This is where Dr. Huang's foundational expertise shines. 
 
-Prior to her current work in cardiovascular AI and multimodal cancer survival fusion, she established herself as a leading voice in "uncertainty quantification"—the science of teaching AI models to know when they are unsure. Her seminal review paper, *"A review of uncertainty quantification in medical image analysis: Probabilistic and non-probabilistic methods,"* published in the top-tier journal *Medical Image Analysis* (2024), remains a cornerstone resource for researchers trying to bridge the gap between "black box" algorithms and clinical trustworthiness.
+Prior to her current work in cardiovascular AI and multimodal cancer survival fusion, she established herself as a leading voice in "uncertainty quantification" - the science of teaching AI models to know when they are unsure. Her seminal review paper, *"A review of uncertainty quantification in medical image analysis: Probabilistic and non-probabilistic methods,"* published in the top-tier journal *Medical Image Analysis* (2024), remains a cornerstone resource for researchers trying to bridge the gap between "black box" algorithms and clinical trustworthiness.
 
 By applying these rigorous standards of data reliability and uncertainty management to the O'Regan Lab's massive UK Biobank datasets, Dr. Huang is ensuring that the AI models predicting our cardiovascular futures are as transparent and trustworthy as they are accurate.

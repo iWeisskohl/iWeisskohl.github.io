@@ -11,7 +11,7 @@ heroImage: '../../assets/project-1.png'
 
 ### The Complexity of Survival Analysis
 
-Predicting cancer survival outcomes—formally known as time-to-event prediction or survival analysis—is one of the most critical and complex tasks in oncology. In a real-world clinical setting, a patient's prognosis isn't determined by a single data point. Instead, doctors make decisions based on a vast, multimodal web of information: high-resolution whole-slide images (WSI), genomic profiles, structured electronic health records, and free-text clinical notes. 
+Predicting cancer survival outcomes - formally known as time-to-event prediction or survival analysis - is one of the most critical and complex tasks in oncology. In a real-world clinical setting, a patient's prognosis isn't determined by a single data point. Instead, doctors make decisions based on a vast, multimodal web of information: high-resolution whole-slide images (WSI), genomic profiles, structured electronic health records, and free-text clinical notes. 
 
 The core challenge for artificial intelligence in this domain is twofold:
 1. **Heterogeneity:** How do you mathematically fuse a pixel-dense pathology slide with a text-based clinical record?
@@ -21,7 +21,7 @@ The core challenge for artificial intelligence in this domain is twofold:
 
 Dr. Ling Huang's research addresses these exact limitations by building AI architectures that inherently understand their own uncertainty. Supported by the Dame Julia Higgins Fund for her project *"Revolutionizing Cancer Survival Analysis Through Trustworthy AI and Multimodal Integration"*, her work fundamentally shifts how models process heterogeneous clinical data.
 
-A flagship example of this approach is **EsurvFusion**, an evidential multimodal survival fusion model recently published in *IEEE Transactions on Fuzzy Systems*. Rather than forcing different data modalities into a standard neural network, EsurvFusion utilizes "Epistemic Random Fuzzy Sets"—specifically Gaussian random fuzzy numbers—to meticulously quantify both data uncertainty and model uncertainty. 
+A flagship example of this approach is **EsurvFusion**, an evidential multimodal survival fusion model recently published in *IEEE Transactions on Fuzzy Systems*. Rather than forcing different data modalities into a standard neural network, EsurvFusion utilizes "Epistemic Random Fuzzy Sets" - specifically Gaussian random fuzzy numbers - to meticulously quantify both data uncertainty and model uncertainty. 
 
 The model features a reliability discounting mechanism. If the AI detects that a specific data stream (e.g., a blurry imaging scan) is unreliable, it automatically discounts its influence on the final prediction, relying more heavily on clearer, more trustworthy modalities.
 

@@ -11,7 +11,7 @@ heroImage: '../../assets/project-3.png'
 
 ### Beyond the Numbers: The Reality of Hospital Data
 
-In real-world healthcare settings, patient information is scattered across completely different formats. While machines excel at tracking structured Electronic Health Records (EHRs)—such as blood pressure, heart rate, or lab results—a massive amount of critical patient context is hidden within unstructured, free-text clinical notes written by doctors and nurses.
+In real-world healthcare settings, patient information is scattered across completely different formats. While machines excel at tracking structured Electronic Health Records (EHRs) - such as blood pressure, heart rate, or lab results - a massive amount of critical patient context is hidden within unstructured, free-text clinical notes written by doctors and nurses.
 
 Building a truly effective Clinical Decision Support System (CDSS) requires artificial intelligence that can read, understand, and fuse both the numbers and the narrative.
 
@@ -29,4 +29,4 @@ Dr. Huang is at the forefront of evaluating and improving these massive architec
 
 ### Empowering Clinical Decision Support Systems
 
-By successfully bridging the gap between structured data algorithms and natural language processing, Dr. Huang’s third research pillar ensures that no piece of patient data is left behind. This multimodal approach guarantees that the next generation of Clinical Decision Support Systems will have a holistic, comprehensive, and—most importantly—trustworthy view of every patient's health journey.
+By successfully bridging the gap between structured data algorithms and natural language processing, Dr. Huang’s third research pillar ensures that no piece of patient data is left behind. This multimodal approach guarantees that the next generation of Clinical Decision Support Systems will have a holistic, comprehensive, and - most importantly - trustworthy view of every patient's health journey.

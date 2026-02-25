@@ -3,12 +3,12 @@ title: 'Bridging the Gap in Mental Health: Dr. Ling Huang Awarded Dame Julia Hig
 pubDate: 'Sept 01 2025'
 ---
 
-**LONDON** — Dr. Ling Huang, a Postdoctoral Research Associate at Imperial College London’s Institute of Clinical Sciences, has been awarded the prestigious **Dame Julia Higgins Postdoc Collaborative Research Fund**. The grant will support a pioneering new project aimed at unravelling the complex biological and neurological mechanisms underlying depression.
+**LONDON**  -  Dr. Ling Huang, a Postdoctoral Research Associate at Imperial College London’s Institute of Clinical Sciences, has been awarded the prestigious **Dame Julia Higgins Postdoc Collaborative Research Fund**. The grant will support a pioneering new project aimed at unravelling the complex biological and neurological mechanisms underlying depression.
 
 Dr. Huang is co-leading the initiative alongside Dr. Zi Wang from Imperial’s Department of Bioengineering. Their funded project is titled: *"Cross-Scale Modelling of Depression: Integrating Human iPSC-derived Neural Cultures and Brain Imaging."*
 
 ### A Cross-Disciplinary Approach to Mental Health
-Depression is a highly complex, multifaceted condition that operates across multiple scales of the human body—from cellular misfires in the brain to large-scale structural and functional changes visible on brain scans. Traditionally, these two scales (the microscopic and the macroscopic) have been studied in isolation.
+Depression is a highly complex, multifaceted condition that operates across multiple scales of the human body - from cellular misfires in the brain to large-scale structural and functional changes visible on brain scans. Traditionally, these two scales (the microscopic and the macroscopic) have been studied in isolation.
 
 The project led by Dr. Huang and Dr. Wang aims to bridge this gap. By combining Dr. Wang's expertise in bioengineering with Dr. Huang's advanced knowledge of artificial intelligence, uncertainty quantification, and medical data analysis, the team plans to build cross-scale models that link the behaviour of human induced pluripotent stem cell (iPSC)-derived neural cultures directly to macroscopic brain imaging data.
 

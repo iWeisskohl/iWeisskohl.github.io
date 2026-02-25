@@ -35,7 +35,7 @@ const collection = await getCollection("researchOverview");
 					)
 					.map((entry) => (
 						<div class="flex flex-col gap-2">
-							<h2 class="text-2xl font-medium text-brand my-2">
+							<h2 class="text-2xl font-medium text-brand dark:text-white my-2">
 								<a href=`/research/${entry.id}`>{entry.data.title}</a>
 							</h2>
 							<div class="flex gap-6 flex-col lg:flex-row">

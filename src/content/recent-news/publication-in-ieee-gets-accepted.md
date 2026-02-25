@@ -2,7 +2,6 @@
 title: 'Imperial College London Postdoc Dr. Ling Huang Celebrates Major Publication in IEEE Transactions on Fuzzy Systems!'
 pubDate: 'Jan 01 2026'
 ---
-# Imperial College London Postdoc Dr. Ling Huang Celebrates Major Publication in IEEE Transactions on Fuzzy Systems
 
 **LONDON** — Dr. Ling Huang, a postdoctoral research associate at Imperial College London, is making significant waves in the intersection of artificial intelligence and healthcare. Her latest breakthrough paper, titled *"EsurvFusion: An evidential multimodal survival fusion model based on Epistemic random fuzzy sets,"* has been officially accepted and published in the prestigious journal *IEEE Transactions on Fuzzy Systems* (January 2026 issue).
 

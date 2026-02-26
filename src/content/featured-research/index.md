@@ -1,5 +1,5 @@
 ---
-title: 'Featured Research: Deep Evidential Fusion for Multimodal Medical Image Segmentation'
+title: 'Deep Evidential Fusion for Multimodal Medical Image Segmentation'
 description: |
     Explore Dr. Ling Huang's featured 2024 research published in the top-tier journal Information Fusion. This pivotal paper addresses the critical "black box" problem in modern healthcare by introducing a novel Deep Evidential Fusion framework specifically designed for multimodal medical image segmentation. 
     

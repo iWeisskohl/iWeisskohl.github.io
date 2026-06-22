@@ -1,5 +1,5 @@
 ---
-title: 'One paper is accepted by MICCAI2026'
+title: 'Our paper "Evidential Fusion Network for Multimodal Survival Prediction under Missing Modalities" is accepted by MICCAI 2026'
 pubDate: 'June 12 2026'
 ---
 

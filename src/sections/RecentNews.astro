@@ -5,7 +5,7 @@ import PageSectionLayout from "../layouts/PageSectionLayout.astro";
 
 const posts = (await getCollection("recentNews")).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-).slice(0, 3);
+);
 ---
 
 <PageSectionLayout title="Recent News" class="bg-sub-muted py-10">

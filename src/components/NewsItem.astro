@@ -1,4 +1,6 @@
 ---
+import { Markdown } from "@astropub/md";
+
 export interface Props {
     date: Date;
     title: string;
@@ -15,5 +17,5 @@ const formattedDate = new Intl.DateTimeFormat('en-US', {
 
 <div class="flex p-0.5">
     <div class="font-semibold mr-2 shrink-0">{formattedDate}:</div>
-    <a href={url}>{title}</a>
+    <a href={url}><Markdown.Inline of={title} /></a>
 </div>

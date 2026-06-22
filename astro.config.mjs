@@ -18,6 +18,9 @@ import tailwindcss from '@tailwindcss/vite';
 
 import icon from 'astro-icon';
 
+// Render markdown strings (e.g. frontmatter titles) in components
+import markdownIntegration from '@astropub/md';
+
 const mdPlugins = [
     remarkMath,
     remarkGfm];
@@ -28,7 +31,7 @@ export default defineConfig({
     integrations: [mdx({
         remarkPlugins: mdPlugins,
         rehypePlugins: [rehypeKatex],
-    }), sitemap(), react(), icon()],
+    }), sitemap(), react(), icon(), markdownIntegration()],
     markdown: {
         remarkPlugins: mdPlugins,
         rehypePlugins: [rehypeKatex],

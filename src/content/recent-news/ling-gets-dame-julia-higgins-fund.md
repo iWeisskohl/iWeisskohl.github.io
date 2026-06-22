@@ -3,7 +3,7 @@ title: 'Bridging the Gap in Mental Health: Dr. Ling Huang Awarded Dame Julia Hig
 pubDate: 'Sept 01 2025'
 ---
 
-**LONDON**  -  Dr. Ling Huang, a Postdoctoral Research Associate at Imperial College London’s Institute of Clinical Sciences, has been awarded the prestigious **Dame Julia Higgins Postdoc Collaborative Research Fund**. The grant will support a pioneering new project aimed at unravelling the complex biological and neurological mechanisms underlying depression.
+**LONDON**  -  Dr. Ling Huang, a Postdoctoral Research Associate at Imperial College London’s Institute of Clinical Sciences, has been awarded the prestigious **Dame Julia Higgins Postdoc Collaborative Research Fund**. The grant will support a pioneering new project aimed at unravelling the complex biological and neurological mechanisms underlying depression..
 
 Dr. Huang is co-leading the initiative alongside Dr. Zi Wang from Imperial’s Department of Bioengineering. Their funded project is titled: *"Cross-Scale Modelling of Depression: Integrating Human iPSC-derived Neural Cultures and Brain Imaging."*
 

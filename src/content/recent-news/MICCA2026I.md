@@ -1,5 +1,5 @@
 ---
-title: 'Paper "Evidential Fusion Network for Multimodal Survival Prediction under Missing Modalities" is accepted by MICCAI 2026'
+title: 'Paper "Evidential Fusion Network for Multimodal Survival Prediction under Missing Modalities" is accepted by MICCAI 2026 !'
 pubDate: 'June 12 2026'
 ---
 

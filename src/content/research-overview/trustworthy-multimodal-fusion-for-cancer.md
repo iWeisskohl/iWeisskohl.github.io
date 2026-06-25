@@ -6,7 +6,7 @@ challenge: 'Survival analysis relies on diverse, multimodal data (whole-slide im
 approach: 'Evidential multimodal fusion frameworks, such as EsurvFusion and DPsurv, grounded in belief-function theory and epistemic random fuzzy sets. The models quantify both data and model uncertainty, and use reliability discounting and dual-prototype fusion to integrate complex data streams safely.'
 keyFindings: 'The models reach state-of-the-art accuracy and interpretability for time-to-event prediction. By learning the reliability of each modality and quantifying uncertainty, they avoid overconfidence on noisy data and give clearer, clinically usable predictions.'
 relatedPublication: 'EsurvFusion: An evidential multimodal survival fusion model based on Epistemic random fuzzy sets (IEEE Transactions on Fuzzy Systems, 2025) | DPsurv: Dual-Prototype Evidential Fusion for Uncertainty-Aware and Interpretable Whole-Slide Image Survival Prediction (ICML 2026)'
-heroImage: '../../assets/project-1.png'
+heroImage: '../../assets/research-cancer.png'
 ---
 
 ### The complexity of survival analysis

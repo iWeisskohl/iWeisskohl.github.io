@@ -6,7 +6,7 @@ challenge: 'Hospital data is diverse, spanning structured clinical measurements 
 approach: 'Using multimodal foundation models and belief-function theory to fuse structured EHRs with clinical text. Domain adaptation and evidential reasoning align the data streams while keeping an explicit measure of diagnostic reliability.'
 keyFindings: 'The multimodal frameworks improve accuracy on tasks such as ICU-outcome and chronic-disease prediction. A systematic evaluation of clinical foundation models also maps what is needed for broadly capable healthcare AI without compromising clinical safety.'
 relatedPublication: 'Towards accurate and reliable ICU outcome prediction: a multimodal learning framework based on belief function theory using structured EHRs and free-text notes (Journal of Healthcare Informatics Research, 2025) | Has multimodal learning delivered universal intelligence in healthcare? A comprehensive survey (Information Fusion, 2024)'
-heroImage: '../../assets/project-3.png'
+heroImage: '../../assets/research-clinical.png'
 ---
 
 ### Beyond the numbers: the reality of hospital data

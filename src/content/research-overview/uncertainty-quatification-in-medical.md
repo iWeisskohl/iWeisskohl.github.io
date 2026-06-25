@@ -6,7 +6,7 @@ challenge: 'Medical images such as MRI and PET scans are often degraded by noise
 approach: 'Integrating belief-function theory with deep neural networks to build deep evidential networks. The approach uses mechanisms such as contextual discounting to manage conflicting multi-modality data, alongside semi-supervised learning to make the most of limited expert-annotated data.'
 keyFindings: 'By modelling masses of belief, these frameworks achieve accurate segmentation while also producing spatial uncertainty maps. The models down-weight unreliable imaging contexts and can explicitly signal "ignorance" when data is insufficient, flagging high-risk regions for clinical review.'
 relatedPublication: 'A review of uncertainty quantification in medical image analysis: probabilistic and non-probabilistic methods (Medical Image Analysis, 2024) | Deep evidential fusion with uncertainty quantification and reliability learning for multimodal medical image segmentation (Information Fusion, 2024)'
-heroImage: '../../assets/project-2.png'
+heroImage: '../../assets/research-uncertainty.png'
 ---
 
 ### The "black box" problem in medical imaging

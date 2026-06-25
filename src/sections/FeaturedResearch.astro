@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import Link from "../components/Link.astro";
 import PageSectionLayout from "../layouts/PageSectionLayout.astro";
 import { getEntry } from "astro:content";
+import { Markdown } from "@astropub/md";
 
 const featuredResearchDoc = await getEntry("featuredResearch", "index");
 ---
@@ -19,13 +20,12 @@ const featuredResearchDoc = await getEntry("featuredResearch", "index");
             <h3 class="text-2xl font-medium">
                 {featuredResearchDoc?.data.title}
             </h3>
-            {
-                (featuredResearchDoc?.data.description ?? "")
-                    .split("\n\n")
-                    .map((paragraph) => <p class="hyphens-auto">{paragraph}</p>)
-            }
-            <Link class="bg-brand text-white dark:border dark:border-secondary text-center md:text-left" href="/featured-research"
-                >Dive Deeper</Link
+            <p class="hyphens-auto">
+                <Markdown.Inline of={featuredResearchDoc?.data.description ?? ""} />
+            </p>
+            <Link
+                class="bg-brand text-white dark:border dark:border-secondary text-center md:text-left"
+                href="/featured-research">Dive Deeper</Link
             >
         </div>
     </div>
